@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo python /home/pi/RPi-Vision/Vision/Master_forPi.py
+sudo python /Huskie-RPi-Vision-Public/Vision_Main.py

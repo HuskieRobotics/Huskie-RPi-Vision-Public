@@ -1,10 +1,10 @@
 [Service]
-WorkingDirectory=/home/pi/RPi-Vision/Vision/
-ExecStart=/home/pi/RPi-Vision/Vision/launcher.sh
+WorkingDirectory=/home/pi/Huskie-RPi-Vision-Public/
+ExecStart=/setup/launcher.sh
 Restart=always
 StandardOutput=syslog
 StandardError=syslog
-SyslogIdentifier=VisionResults1
+SyslogIdentifier=VisionResults
 User=root
 Group=root
 [Install]

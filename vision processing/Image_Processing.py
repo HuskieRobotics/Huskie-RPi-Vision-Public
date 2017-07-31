@@ -2,7 +2,7 @@
 import cv2
 import time
 import numpy as np
-import sys
+
 
 ###Set these to your preferred ranges for HSV based on the data you collected from the Testing Suite
 lowerC = np.array([40,75, 25])

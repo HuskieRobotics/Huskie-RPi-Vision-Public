@@ -27,8 +27,8 @@ def getVideo():
     camera.shutter_speed = 1000
     rawCapture = PiRGBArray(camera,size=(320,240))
 
-    ###Uncomment the line below and change the IP address to your robot's ip (i.e. "10.30.61.17"), port is an arbitrary number
-    ###server = UDP_Server.server("HOST IP",PORT)
+    ###Edit the line below and change the IP address to your robot's ip (i.e. "10.30.61.17"), port is an arbitrary number
+    server = UDP_Server.server("Robot IP",9000) #(IP,PORT)
     
 
     #frame_time is a pretty precise way of getting the timestamp of your image if you need it
@@ -37,9 +37,13 @@ def getVideo():
         image = frame.array
 
         ###DO YOUR PROCESSING HERE USING OpenCV and the image variable
+        ###Refer to the Image Processing module and call it here
         ###AFTER PROCESSING, SEND DATA WITH THE PROVIDED MODULE
 
-
+        ###Input your data and tags into the list below to send data to the rio
+        ###This data is converted to a json string FYI, makes the sending faster
+        server.sendData(["X":0, "Y":0, "Z":0])
+        
         #this trunctates the stream of images to grab the current image
         rawCapture.truncate(0)
         frame_time = time.time()

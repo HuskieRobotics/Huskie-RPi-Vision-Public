@@ -47,6 +47,6 @@ What is UDP: [here](http://searchmicroservices.techtarget.com/definition/UDP-Use
 
 ## 3D Printed Camera Cases
 
-Our GrabCad Partner space has the files for all of this: [here](https://workbench.grabcad.com/workbench/projects/gcGE8V6qjJTC8MVGvCVHrsE53Zv-qneaUuiebfHzCsZ08G#/space/gcYgMNwN-ZOnUh87_eJl-JzqzF4mV5uck80jfpLCJ3wMqS)  This actually has a spot for the LED ring to sit on. 
+Our GrabCad Partner space has the files for all of this: [here](https://workbench.grabcad.com/workbench/projects/gcGE8V6qjJTC8MVGvCVHrsE53Zv-qneaUuiebfHzCsZ08G#/space/gcYgMNwN-ZOnUh87_eJl-JzqzF4mV5uck80jfpLCJ3wMqS)  This model actually has a spot for the LED ring to sit on. 
 
 

@@ -2,7 +2,7 @@
 Our teams template for future vision projects. Contains a variety of setup scripts that should be run to enable the camera and import OpenCV libraries. Also has a template for processing images via the Pi Camera and creating a UDP server. 
 
 
-Steps
+##Steps
 
 1. Buy a Raspberry Pi and Pi Camera v2 from [here](https://www.raspberrypi.org/products/)
 
@@ -27,7 +27,9 @@ To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Visi
 
 11. Take a look at the vision files and fill in your code as necessary. 
 
-Important Links
+12. Also make sure to use the Testing Suite to tune your camera using HSV, Brightness, ISO, etc. 
+
+##Important Links
 
 Team 254 Vision Video SUPER HELPFUL: [here](https://www.team254.com/documents/vision-control/)
 

@@ -20,6 +20,16 @@ Steps
 
 8. Make sure your pi is connected to the internet and install git via ```sudo apt-get install git```
 
-9. Then clone this repository by using ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public/```
+9. Then fork this [repository](https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public) and clone it. Instructions [here](https://guides.github.com/activities/forking/)... If you do not have access to the desktop/web browser you may just clone the repository.
+To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public```
 
-10. Now run my setup file (it may take up to an hour to compile the opencv library, be patient).
+10. Now run my setup file (it may take up to an hour to compile the opencv library, be patient). Use the command ```sh /home/pi/Huskie-RPi-Vision-Public/setup/Setup Script.sh```
+
+11. Take a look at the vision files and fill in your code as necessary. 
+
+Important Links
+Team 254 Vision Video SUPER HELPFUL: [here](https://www.team254.com/documents/vision-control/)
+Learning about OpenCV: [here](http://docs.opencv.org/3.1.0/d2/d96/tutorial_py_table_of_contents_imgproc.html)
+Learning about Contours: [here](http://docs.opencv.org/3.1.0/d3/d05/tutorial_py_table_of_contents_contours.html)
+What is UDP: [here](http://searchmicroservices.techtarget.com/definition/UDP-User-Datagram-Protocol)
+

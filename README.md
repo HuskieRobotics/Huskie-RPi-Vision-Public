@@ -18,8 +18,8 @@ Steps
 
 7. Once your SD card is formatted and in the pi, you have two options: either use a monitor with mouse and keyboard to access pi or learn how to [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md)
 
-8. Make sure your pi is connected to the internet and install git via '''sudo apt-get install git'''
+8. Make sure your pi is connected to the internet and install git via ```sudo apt-get install git```
 
-9. Then clone this repository by using '''git clone https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public/'''
+9. Then clone this repository by using ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public/```
 
 10. Now run my setup file (it may take up to an hour to compile the opencv library, be patient).

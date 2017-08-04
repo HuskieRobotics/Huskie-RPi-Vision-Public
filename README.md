@@ -39,3 +39,8 @@ Learning about Contours: [here](http://docs.opencv.org/3.1.0/d3/d05/tutorial_py_
 
 What is UDP: [here](http://searchmicroservices.techtarget.com/definition/UDP-User-Datagram-Protocol)
 
+## 3D Printed Camera Cases
+
+Our GrabCad Partner space has the files for all of this: [here](https://workbench.grabcad.com/workbench/projects/gcGE8V6qjJTC8MVGvCVHrsE53Zv-qneaUuiebfHzCsZ08G#/space/gcYgMNwN-ZOnUh87_eJl-JzqzF4mV5uck80jfpLCJ3wMqS)
+
+

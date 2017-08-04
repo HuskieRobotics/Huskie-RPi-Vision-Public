@@ -2,7 +2,7 @@
 Our teams template for future vision projects. Contains a variety of setup scripts that should be run to enable the camera and import OpenCV libraries. Also has a template for processing images via the Pi Camera and creating a UDP server. 
 
 
-## Steps
+## Stuff to buy 
 
 1. Buy a Raspberry Pi and Pi Camera v2 from [here](https://www.raspberrypi.org/products/)
 
@@ -12,22 +12,28 @@ Our teams template for future vision projects. Contains a variety of setup scrip
 
 4. You'll also need a mini sd card (8GB +), you can buy this anywhere
 
-5. Download Raspbian onto your personal computer: [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) or [Noobs](https://www.raspberrypi.org/downloads/noobs/) if you are less experienced with linux. I currently use NOOBS but Raspbian works the same.
+5. Buy a [LED RING](http://www.andymark.com/product-p/am-3596.htm)
 
-6. Download [SD Formatter](https://www.sdcard.org/downloads/formatter_4/) and follow these [instructions](https://www.raspberrypi.org/documentation/installation/noobs.md)
+## Setup
 
-7. Once your SD card is formatted and in the pi, you have two options: either use a monitor with mouse and keyboard to access pi or learn how to [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md)
+1. Download Raspbian onto your personal computer: [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) or [Noobs](https://www.raspberrypi.org/downloads/noobs/) if you are less experienced with linux. I currently use NOOBS but Raspbian works the same.
 
-8. Make sure your pi is connected to the internet and install git via ```sudo apt-get install git```
+2. Download [SD Formatter](https://www.sdcard.org/downloads/formatter_4/) and follow these [instructions](https://www.raspberrypi.org/documentation/installation/noobs.md)
 
-9. Then fork this [repository](https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public) and clone it. Instructions [here](https://guides.github.com/activities/forking/)... If you do not have access to the desktop/web browser you may just clone the repository.
+3. Once your SD card is formatted and in the pi, you have two options: either use a monitor with mouse and keyboard to access pi or learn how to [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md)
+
+4. Make sure your pi is connected to the internet and install git via ```sudo apt-get install git```
+
+5. Then fork this [repository](https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public) and clone it. Instructions [here](https://guides.github.com/activities/forking/)... If you do not have access to the desktop/web browser you may just clone the repository.
 To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public```
 
-10. Now run my setup file (it may take up to an hour to compile the opencv library, be patient). Use the command ```sh /home/pi/Huskie-RPi-Vision-Public/setup/Setup Script.sh```
+6. Now run my setup file (it may take up to an hour to compile the opencv library, be patient). Use the command ```sh /home/pi/Huskie-RPi-Vision-Public/setup/Setup Script.sh```
 
-11. Take a look at the vision files and fill in your code as necessary. 
 
-12. Also make sure to use the Testing Suite to tune your camera using HSV, Brightness, ISO, etc. 
+## Programming Vision
+1. Take a look at the vision files and fill in your code as necessary. There are a variety of comments that detail exactly how and where to write your code. 
+
+2. Also make sure to use the Testing Suite to tune your camera using HSV, Brightness, ISO, etc. It contains trackbars that you can slide around to tune. 
 
 ## Important Links
 

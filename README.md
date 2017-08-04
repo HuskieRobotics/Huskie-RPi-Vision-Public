@@ -28,8 +28,12 @@ To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Visi
 11. Take a look at the vision files and fill in your code as necessary. 
 
 Important Links
+
 Team 254 Vision Video SUPER HELPFUL: [here](https://www.team254.com/documents/vision-control/)
+
 Learning about OpenCV: [here](http://docs.opencv.org/3.1.0/d2/d96/tutorial_py_table_of_contents_imgproc.html)
+
 Learning about Contours: [here](http://docs.opencv.org/3.1.0/d3/d05/tutorial_py_table_of_contents_contours.html)
+
 What is UDP: [here](http://searchmicroservices.techtarget.com/definition/UDP-User-Datagram-Protocol)
 

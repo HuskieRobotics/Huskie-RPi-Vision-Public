@@ -27,7 +27,11 @@ Our teams template for future vision projects. Contains a variety of setup scrip
 5. Then fork this [repository](https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public) and clone it. Instructions [here](https://guides.github.com/activities/forking/)... If you do not have access to the desktop/web browser you may just clone the repository.
 To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public```
 
-6. Now run my setup file (it may take up to an hour to compile the opencv library, be patient). Use the command ```sh /home/pi/Huskie-RPi-Vision-Public/setup/Setup Script.sh```
+6. Now run my setup file (it may take up to an hour to compile the opencv library, be patient). Use the commands
+```
+sudo chmod +x /home/pi/Huskie-RPi-Vision-Public/setup/Setup_Script.sh
+/home/pi/Huskie-RPi-Vision-Public/setup/Setup_Script.sh
+```
 
 
 ## Programming Vision

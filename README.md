@@ -22,7 +22,7 @@ Our teams template for future vision projects. Contains a variety of setup scrip
 
 3. Once your SD card is formatted and in the pi, you have two options: either use a monitor with mouse and keyboard to access pi or learn how to [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md)
 
-4. Make sure your pi is connected to the internet and install git via ```sudo apt-get install git```
+4. Make sure your pi is connected to the internet and install git via ```sudo apt-get install git``` or follow these [instructions](https://www.raspberrypi.org/learning/getting-started-with-git/worksheet/)
 
 5. Then fork this [repository](https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public) and clone it. Instructions [here](https://guides.github.com/activities/forking/)... If you do not have access to the desktop/web browser you may just clone the repository.
 To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public```

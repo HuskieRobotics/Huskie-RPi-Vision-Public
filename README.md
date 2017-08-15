@@ -48,11 +48,11 @@ sudo chmod +x /home/pi/Huskie-RPi-Vision-Public/setup/Setup_Script.sh
 
 4. ```/setup/enable_camera.sh``` This file enables the camera module. You don't necessarily need this if you use a USB camera.
 
-5.```/setup/install-opencv3.2.sh``` This file installs OpenCV for Python 2.7. It does take a long time to run.
+5. ```/setup/install-opencv3.2.sh``` This file installs OpenCV for Python 2.7. It does take a long time to run.
 
-6.```/setup/launcher.sh``` This file launches the Vision Processing. Is called by the systemd service.
+6. ```/setup/launcher.sh``` This file launches the Vision Processing. Is called by the systemd service.
 
-7.```/setup/pip_installs.sh``` This file uses pip to install all other relevant modules including numpy, socket, and time.
+7. ```/setup/pip_installs.sh``` This file uses pip to install all other relevant modules including numpy, socket, and time.
 
 8. ```/vision processing/Image_Processing.py``` This file takes the image, finds the contours, and gets all the data you would like from the image.
 
@@ -77,7 +77,3 @@ What is UDP: [here](http://searchmicroservices.techtarget.com/definition/UDP-Use
 ## 3D Printed Camera Cases
 
 Our GrabCad Partner space has the files for all of this: [here](https://workbench.grabcad.com/workbench/projects/gcGE8V6qjJTC8MVGvCVHrsE53Zv-qneaUuiebfHzCsZ08G#/space/gcYgMNwN-ZOnUh87_eJl-JzqzF4mV5uck80jfpLCJ3wMqS)  This model actually has a spot for the LED ring to sit on. 
-
-
-
-

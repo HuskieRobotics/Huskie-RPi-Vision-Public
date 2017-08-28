@@ -31,3 +31,5 @@ set_config_var start_x 1 /boot/config.txt
 set_config_var gpu_mem 128 /boot/config.txt
 sed /boot/config.txt -i -e "s/^startx/#startx/"
 sed /boot/config.txt -i -e "s/^fixup_file/#fixup_file/"
+
+sudo reboot

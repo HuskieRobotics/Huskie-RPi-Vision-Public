@@ -1,14 +1,11 @@
 sudo rpi-update
 
-sudo apt-get -y update
-
-sudo apt-get -y upgrade
-
-
+cd ~
+sudo apt-get install -y cmake
 sudo apt-get install -y build-essential 
 cmake cmake-curses-gui pkg-config
-
-
+sudo apt-get install build-essential cmake cmake-curses-gui pkg-config
+sudo apt-get install libatlas-base-dev gfortran
 sudo apt-get install \
     libjpeg-dev \
     libtiff5-dev \
@@ -27,9 +24,11 @@ sudo apt-get install libatlas-base-dev gfortran
 
 
 sudo apt-get install python2.7-dev
+sudo apt-get install python3-dev
 
 
 pip install numpy
+pip3 install numpy
 
 mkdir opencv && cd opencv
 wget https://github.com/opencv/opencv/archive/3.2.0.zip -O opencv_source.zip

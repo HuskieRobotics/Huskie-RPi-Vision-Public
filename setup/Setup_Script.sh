@@ -1,8 +1,7 @@
 #!/bin/sh
 
-#sudo apt-get -y update
-
-#sudo apt-get -y upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
 
 
 sudo sh /home/pi/Huskie-RPi-Vision-Public/setup/enableCamAdam.sh
@@ -16,4 +15,4 @@ cd /home/pi/Huskie-RPi-Vision-Public/setup/
 
 sudo sh /home/pi/Huskie-RPi-Vision-Public/setup/createSystemdFile.sh
 
-#sudo shutdown -r now
+sudo shutdown -r now

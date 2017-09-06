@@ -1,4 +1,4 @@
-# Huskie-RPi-Vision-Public
+# Huskie-Vision
 Our teams template for future vision projects. Contains a variety of setup scripts that should be run to enable the camera and import OpenCV libraries. Also has a template for processing images via the Pi Camera and creating a UDP server. 
 
 
@@ -29,8 +29,8 @@ To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Visi
 
 6. Now run my setup file (it may take up to an hour to compile the opencv library, be patient). Use the commands
 ```
-sudo chmod +x /home/pi/Huskie-RPi-Vision-Public/setup/Setup_Script.sh
-/home/pi/Huskie-RPi-Vision-Public/setup/Setup_Script.sh
+sudo chmod +x /home/pi/Huskie-Vision/setup/Setup_Script.sh
+/home/pi/Huskie-Vision/setup/Setup_Script.sh
 ```
 
 

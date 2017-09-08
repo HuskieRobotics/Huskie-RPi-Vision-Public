@@ -1,5 +1,4 @@
 #!/bin/sh
 
 sudo apt-get install python-pip
-sudo pip install numpy
-sudo pip install picamera
+sudo pip install -r requirements.txt

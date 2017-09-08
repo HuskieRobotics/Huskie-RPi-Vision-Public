@@ -1,6 +1,6 @@
 [Service]
 WorkingDirectory=/home/pi/Huskie-Vision/setup/
-ExecStart=/usr/bin/python/ /home/pi/Huskie-Vision/vision-processing/Vision_Main.py
+ExecStart= /home/pi/Huskie-Vision/setup/launcher.sh
 Restart=always
 StandardOutput=syslog
 StandardError=syslog

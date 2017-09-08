@@ -2,8 +2,30 @@ sudo rpi-update
 
 cd ~
 sudo apt-get install -y cmake
-sudo apt-get install -y build-essential
-cmake cmake-curses-gui pkg-config
+sudo apt-get autoremove
+sudo apt-get autoremove opencv-doc \ 
+	opencv-data \
+	libopencv-dev \
+	libopencv2.4-java \
+	libopencv2.4-jni \
+	python-opencv \
+	libopencv-core2.4 \
+	libopencv-gpu2.4 \
+	libopencv-ts2.4 \
+	libopencv-photo2.4 \
+	libopencv-contrib2.4 \
+	libopencv-imgproc2.4 \
+	libopencv-superres2.4 \
+	libopencv-stitching2.4 \
+	libopencv-ocl2.4 \
+	libopencv-legacy2.4 \
+	libopencv-ml2.4 \
+	libopencv-video2.4 \
+	libopencv-videostab2.4 \
+	libopencv-objdetect2.4 \
+	libopencv-calib3d2.4 -y
+sudo apt-get purge libopencv*
+sudo dpkg -r opencv
 sudo apt-get install build-essential cmake cmake-curses-gui pkg-config -y
 sudo apt-get install libatlas-base-dev gfortran -y
 sudo apt-get install \
@@ -55,7 +77,7 @@ sudo cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D WITH_LIBV4L=ON \
         ../
 
-sudo make -j4
+sudo make -j3
 
 sudo make install
 

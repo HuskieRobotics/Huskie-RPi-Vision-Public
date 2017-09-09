@@ -30,7 +30,7 @@ To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-Vision``
 6. Now run my setup file (it may take up to 6 hours+ to compile the opencv library, run this overnight). Use the commands
 ```
 sudo chmod +x /home/pi/Huskie-Vision/setup/setup_script.sh
-sudo sh /home/pi/Huskie-Vision/setup/Setup_Script.sh
+sudo sh /home/pi/Huskie-Vision/setup/setup_script.sh
 ```
 
 

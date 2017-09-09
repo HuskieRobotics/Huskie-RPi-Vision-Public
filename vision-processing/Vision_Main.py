@@ -43,7 +43,7 @@ def getVideo():
         
         ###Input your data and tags into the list below to send data to the rio
         ###This data is converted to a json string FYI, makes the sending faster
-        server.sendData(["X":0, "Y":0, "Z":0,"Time":frame_time])
+        server.sendData({"X":0, "Y":0, "Z":0,"Time":frame_time})
         
         #this trunctates the stream of images to grab the current image
         rawCapture.truncate(0)

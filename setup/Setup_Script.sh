@@ -1,19 +1,19 @@
 #!/bin/sh
+set-x
 
-#sudo apt-get update
+sudo rpi-update
 
-#sudo apt-get upgrade
-3read -rsp $'Press any key to continue...\n' -n1 key
+sudo apt-get -y update
 
-sudo sh enableCamAdam.sh
-#read -rsp $'Press any key to continue...\n' -n1 key
+sudo apt-get -y upgrade
 
-sudo sh pip_installs.sh
-#read -rsp $'Press any key to continue...\n' -n1 key
+sudo sh /home/pi/Huskie-Vision/setup/enableCamAdam.sh
 
-sudo sh install-opencv3.2.sh
+sudo sh /home/pi/Huskie-Vision/setup/pip_installs.sh
 
-sudo sh createSystemdFile.sh
+sudo sh /home/pi/Huskie-Vision/setup/install-opencv3.2.sh
+cd /home/pi/Huskie-Vision/setup/
 
-sudo apt-get reboot
+sudo sh /home/pi/Huskie-Vision/setup/createSystemdFile.sh
 
+sudo shutdown -r now

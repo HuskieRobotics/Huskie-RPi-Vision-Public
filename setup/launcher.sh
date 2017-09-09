@@ -1,3 +1,3 @@
 #!/bin/sh
-
-sudo python /Huskie-RPi-Vision-Public/Vision_Main.py
+set -x
+sudo python /home/pi/Huskie-Vision/vision-processing/Vision_Main.py

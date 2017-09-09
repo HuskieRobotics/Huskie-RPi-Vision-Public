@@ -1,7 +1,4 @@
 #!/bin/sh
-
+set -x
 sudo apt-get install python-pip
-pip install time
-pip install socket
-pip install numpy
-pip install picamera
+sudo pip install -r requirements.txt

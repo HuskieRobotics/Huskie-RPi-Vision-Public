@@ -1,4 +1,7 @@
 #!/bin/sh
+set-x
+
+sudo rpi-update
 
 sudo apt-get -y update
 

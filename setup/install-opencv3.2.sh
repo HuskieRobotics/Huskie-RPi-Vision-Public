@@ -1,7 +1,9 @@
-sudo rpi-update
+#!/bin/sh
+
+set -x
 
 cd ~
-sudo apt-get install -y cmake
+sudo apt-get install cmake -y
 sudo apt-get autoremove
 sudo apt-get autoremove opencv-doc \ 
 	opencv-data \
@@ -24,7 +26,7 @@ sudo apt-get autoremove opencv-doc \
 	libopencv-videostab2.4 \
 	libopencv-objdetect2.4 \
 	libopencv-calib3d2.4 -y
-sudo apt-get purge libopencv*
+sudo apt-get purge libopencv* -y
 sudo dpkg -r opencv
 sudo apt-get install build-essential cmake cmake-curses-gui pkg-config -y
 sudo apt-get install libatlas-base-dev gfortran -y

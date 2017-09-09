@@ -16,21 +16,21 @@ Our teams template for future vision projects. Contains a variety of setup scrip
 
 ## Setup
 
-1. Download Raspbian onto your personal computer: [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) or [Noobs](https://www.raspberrypi.org/downloads/noobs/) if you are less experienced with linux. I currently use NOOBS but Raspbian works the same.
+1. Download Raspbian onto your personal computer: [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) 
 
-2. Download [SD Formatter](https://www.sdcard.org/downloads/formatter_4/) and follow these [instructions](https://www.raspberrypi.org/documentation/installation/noobs.md)
+2. Download [Etcher](https://etcher.io/) and flash the pi using the Raspbian image.
 
-3. Once your SD card is formatted and in the pi, you have two options: either use a monitor with mouse and keyboard to access pi or learn how to [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/README.md)
+3. Once your SD card is formatted, place an empty text file called ssh in the boot folder to enable SSH. You can then install [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) on your desktop to access the pi. Then hook up your pi to your internet (via ethernet cable) and then ssh into the pi using putty with a hostname of ```raspberrypi.local``` a username of ```pi``` and a password of ```raspberry```. You may change these once in the terminal by running ```sudo raspi-config```. This is the easiest way to access the shell of the RPI however you may also hook up a monitor, keyboard, and mouse if you would like to use the desktop.
 
 4. Make sure your pi is connected to the internet and install git via ```sudo apt-get install git``` or follow these [instructions](https://www.raspberrypi.org/learning/getting-started-with-git/worksheet/)
 
 5. Then fork this [repository](https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public) and clone it. Instructions [here](https://guides.github.com/activities/forking/)... If you do not have access to the desktop/web browser you may just clone the repository.
-To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-RPi-Vision-Public```
+To just clone use ```git clone https://github.com/HuskieRobotics/Huskie-Vision```
 
-6. Now run my setup file (it may take up to an hour to compile the opencv library, be patient). Use the commands
+6. Now run my setup file (it may take up to 6 hours+ to compile the opencv library, run this overnight). Use the commands
 ```
-sudo chmod +x /home/pi/Huskie-Vision/setup/Setup_Script.sh
-/home/pi/Huskie-Vision/setup/Setup_Script.sh
+sudo chmod +x /home/pi/Huskie-Vision/setup/setup_script.sh
+sudo sh /home/pi/Huskie-Vision/setup/Setup_Script.sh
 ```
 
 
@@ -40,15 +40,15 @@ sudo chmod +x /home/pi/Huskie-Vision/setup/Setup_Script.sh
 2. Also make sure to use the Testing Suite to tune your camera using HSV, Brightness, ISO, etc. It contains trackbars that you can slide around to tune. 
 
 ## What do the files do???
-1. ```/setup/Setup_Script.sh```  This file runs all the setup scripts
+1. ```/setup/setup_script.sh```  This file runs all the setup scripts
 
 2. ```/setup/VisionStartup.service``` This file is a systemd service. It is copied into the file path ```etc/systemd/system/``` and given permissions that allow it run the Vision Processing when the Pi boots up. Basically autoruns the program on startup so you don't have to during competition.
 
-3. ```/setup/createSystemdFile.sh``` This file sets up the ```VisionStartup.service``` file.
+3. ```/setup/enable_systemd_service.sh``` This file sets up the ```VisionStartup.service``` file in the systemd service folder.
 
-4. ```/setup/enable_camera.sh``` This file enables the camera module. You don't necessarily need this if you use a USB camera.
+4. ```/setup/enable_cam.sh``` This file enables the camera module. You don't necessarily need this if you use a USB camera.
 
-5. ```/setup/install-opencv3.2.sh``` This file installs OpenCV for Python 2.7. It does take a long time to run.
+5. ```/setup/install_opencv.sh``` This file installs OpenCV for Python 2.7. It does take a long time to run.
 
 6. ```/setup/launcher.sh``` This file launches the Vision Processing. Is called by the systemd service.
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-set-x
+set -x
 
 sudo rpi-update
 sudo apt-get -y update

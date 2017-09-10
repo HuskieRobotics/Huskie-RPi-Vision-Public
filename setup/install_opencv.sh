@@ -4,7 +4,8 @@ set -x
 
 cd ~
 
-sudo apt-get autoremove
+
+sudo apt-get autoremove -y
 sudo apt-get autoremove -y opencv-doc \ 
 	opencv-data \
 	libopencv-dev \
@@ -29,14 +30,12 @@ sudo apt-get autoremove -y opencv-doc \
 sudo apt-get purge libopencv* -y
 sudo dpkg -r opencv
 
-
-sudo apt-get install \
-	build-essential \
-	cmake \
-	cmake-curses-gui \
-	pkg-config \
-	libatlas-base-dev \
-	gfortran \
+sudo apt-get install -y build-essential cmake cmake-curses-gui pkg-config -y
+sudo apt-get install libatlas-base-dev gfortran -y
+sudo apt-get install -y \
+	libpango1.0-dev \
+	libgdk-pixbuf2.0-dev \
+	libcairo2-dev \
 	libjpeg-dev \
 	libtiff5-dev \
 	libjasper-dev \
@@ -48,10 +47,9 @@ sudo apt-get install \
     	libxvidcore-dev \
     	libx264-dev \
     	libgtk2.0-dev \
-	python2.7-dev \
-	python3-dev \ -y
 
 
+sudo apt-get install python2.7-dev python3-dev -y
 sudo pip install numpy
 sudo pip3 install numpy
 

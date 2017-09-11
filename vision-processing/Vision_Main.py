@@ -9,7 +9,7 @@ from picamera.array import PiRGBArray
 from picamera import PiCamera
 
 #User created modules
-import UDP_Server
+import UDP_Client
 from Image_Processing import process_image
 
 
@@ -28,7 +28,7 @@ def getVideo():
     rawCapture = PiRGBArray(camera,size=(320,240))
 
     ###Edit the line below and change the IP address to your robot's ip (i.e. "10.30.61.17"), port is an arbitrary number
-    server = UDP_Server.server("Robot IP",9000) #(IP,PORT)
+    client = UDP_Client.Client("Robot IP",9000) #(IP,PORT)
     
 
     #frame_time is a pretty precise way of getting the timestamp of your image if you need it

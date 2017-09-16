@@ -17,6 +17,7 @@ def process_image(image):
     thresholdedFrame = cv2.inRange(newFrame, lowerC, upperC)
 
     try:
+        pass
         ###operations on the frame come here, set all the variables to desired numbers based on contours and other things you find from the image
         ###ex. targetX = getX(thresholdedFrame)
         

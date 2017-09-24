@@ -10,9 +10,9 @@ class Client:
         self.sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
         self.HOST = HOST
         self.PORT = PORT
-    def sendData(list_args):
+    def sendData(self,list_args):
         sock.sendto(createJSON(list_args),(self.HOST,self.PORT))
-    def createJSON(list_args):
+    def createJSON(self,list_args):
         return json.dumps(list_args)
 
         

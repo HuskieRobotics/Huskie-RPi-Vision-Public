@@ -1,7 +1,7 @@
 sudo apt-get update
 sudo apt-get upgrade
 sudo rpi-update
-sudo reboot
+
 sudo apt-get install build-essential git cmake pkg-config
 sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev

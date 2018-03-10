@@ -13,27 +13,34 @@ import UDP_Client
 from Image_Processing import process_image
 
 
-
 def getVideo():
     
     #Initialize Camera Stream
     camera = PiCamera()
     camera.resolution=(320,240)
-
+    rawCapture = PiRGBArray(camera,size=(320,240))
+    time.sleep(.5)
+    ##camera.exposure_mode= 'sports'
+    
     #These values are subject to change, use the Testing Suite to determine what range of values you want
     camera.brightness =50
     camera.ISO = 100
     
     camera.shutter_speed = 1000
-    rawCapture = PiRGBArray(camera,size=(320,240))
+    print camera.shutter_speed
+    print camera.exposure_speed
+    print camera.framerate
 
     ###Edit the line below and change the IP address to your robot's ip (i.e. "10.30.61.17"), port is an arbitrary number
-    client = UDP_Client.Client("Robot IP",9000) #(IP,PORT)
+    client = UDP_Client.Client("10.30.61.17",9000) #(IP,PORT)
     
 
     #frame_time is a pretty precise way of getting the timestamp of your image if you need it
     frame_time = time.time()
-    for frame in camera.capture_continuous(rawCapture,format = 'bgr',use_video_port = True):
+    for frame in camera.capture_continuous(rawCapture,format = 'rgb',use_video_port = True):
+        camera.brightness =49
+        camera.ISO = 601
+        
         image = frame.array
 
         ###DO YOUR PROCESSING HERE USING OpenCV and the image variable

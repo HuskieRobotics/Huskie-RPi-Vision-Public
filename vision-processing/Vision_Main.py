@@ -25,14 +25,16 @@ def getVideo():
     #These values are subject to change, use the Testing Suite to determine what range of values you want
     camera.brightness =50
     camera.ISO = 100
-    
+    camera.brightness =49
+    camera.ISO = 601
     camera.shutter_speed = 1000
     print camera.shutter_speed
     print camera.exposure_speed
     print camera.framerate
+    rawCapture.truncate(0)
 
     ###Edit the line below and change the IP address to your robot's ip (i.e. "10.30.61.17"), port is an arbitrary number
-    client = UDP_Client.Client("10.30.61.17",9000) #(IP,PORT)
+    client = UDP_Client.Client("127.0.0.1",9000) #(IP,PORT)
     
 
     #frame_time is a pretty precise way of getting the timestamp of your image if you need it

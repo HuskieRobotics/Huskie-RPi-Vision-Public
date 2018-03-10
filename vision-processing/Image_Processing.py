@@ -10,11 +10,8 @@ upperC = np.array([66, 255, 42],np.uint8)
 
 def process_image(image):
     originalImage=image
-   # newFrame = cv2.inRange(image,lowerC,upperC)
-    #a,contours,hierarchy = cv2.findContours(newFrame,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
-    #cv2.drawContours(originalImage,contours,-1,(24,60,0),3)
-   # print contours
     
+    totalArea,ratioArea,centerX,centerY,width,height,rectangles = 0,0,0,0,0,0,0
     #Initialize all the data you are going to collect to 0. This ensures that if the target is not detected, it will return 0 and not an error
     #ex. targetX,targetY,Area = 0,0,0
 
@@ -23,19 +20,31 @@ def process_image(image):
     newFrame = cv2.inRange(hsvFrame,lowerC,upperC)
     cv2.imshow('b',newFrame) 
     a,contours,hierarchy = cv2.findContours(newFrame,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
-    print contours
+    #print len(contours)
     thresholdedFrame = cv2.inRange(hsvFrame, lowerC, upperC)
     cv2.drawContours(originalImage,contours,-1,(255,165,0),3)
 ##    
     #cv2.imshow('a',newFr)
     cv2.imshow('a',originalImage)
     try:
-        pass
+        rectangles = detectRectangles(newFrame)
+        leftRectangle, rightRectangle = rectangleStats(rectangles)
+    
+        centerX,centerY = getCenter(leftRectangle,rightRectangle)
+        ratioArea = getRatioArea(leftRectangle,rightRectangle)
+        width = rightRectangle[0] - leftRectangle[0] +leftRectangle[2]
+        height =(rightRectangle[3]+leftRectangle[3])/2.0
+        totalArea = width * height 
+        
         ###operations on the frame come here, set all the variables to desired numbers based on contours and other things you find from the image
         ###ex. targetX = getX(thresholdedFrame)
         
-    except:
+    except Exception as e:
+        print e
         pass
+    
+    
+    return totalArea,ratioArea,centerX,centerY,width,height,rectangles
 
     ###Here return the data you have collected
     ###ex return targetX,targetY,Area
@@ -94,7 +103,7 @@ def getRatioArea(leftRectangle,rightRectangle):
     return float(leftRectangle[2]*leftRectangle[3]) / float(rightRectangle[2]*rightRectangle[3])
     
 def rectangleStats(rectangles):
-    #x,y,w,h = cv2.boundingRect(rectangles[0])
+    x,y,w,h = cv2.boundingRect(rectangles[0])
     x2,y2,w2,h2 = cv2.boundingRect(rectangles[1])
     if x<x2:
         leftRectangle = [x,y,w,h]
@@ -114,26 +123,33 @@ def getCenter(leftRectangle,rightRectangle):
 
     
 def detectRectangles(image):
-    image = cv2.inRange(image,lowerC,upperC)
     a,contours,hierarchy = cv2.findContours(image,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
     rectangles = findRectangles(contours)
     rectangles = sorted(rectangles, key = cv2.contourArea,reverse=True)[:10]
     index = len(rectangles)-1
+    print "Before:" , len(rectangles)
     while index>=0:
         
-        cv2.drawContours(image,contours,-1,(24,255,0),3)
         cv2.imshow('b',image)
         
-       # x,y,w,h = cv2.boundingRect(rectangles[index])
+        x,y,w,h = cv2.boundingRect(rectangles[index])
         area= cv2.contourArea(rectangles[index])
         #checks for correct aspect ratiorectangles of the rectangles
-        if (abs(float(h)/w- 8) <2.4):
+        if (abs(float(h)/w - 8) <1):
+            print ("Ratio Deletion")
+            print (abs(float(h)/w))
             rectangles.pop(index)
         #checks if area is within reasonable range
-        elif area< 500  or area>15000:
+        elif area< 150  or area>15000:
+            print ("Area Deletion")
+            
             rectangles.pop(index)
         index-=1
-    print rectangles
+    print "After:", len(rectangles)
+
+    #moved this frm the top on 3/10/18
+    cv2.drawContours(image,rectangles,-1,(24,255,0),3)
+
     return rectangles
 
 

@@ -39,7 +39,7 @@ rawCapture = PiRGBArray(camera,size = (320,240))
 time.sleep(.5)
 ##camera.exposure_mode= 'sports'
 camera.brightness =5
-camera.ISO = 100
+#camera.ISO = 100
 #camera.sharpness = 100
 #camera.contrast = 100
 #camera.awb_mode = 'off'
@@ -58,10 +58,10 @@ for frame in camera.capture_continuous(rawCapture,format = 'rgb',use_video_port 
     lowerSat = cv2.getTrackbarPos(sl,wnd)
     upperVal = cv2.getTrackbarPos(vh,wnd)
     lowerVal = cv2.getTrackbarPos(vl,wnd)
-    iso = cv2.getTrackbarPos("ISO",wnd)
+    #iso = cv2.getTrackbarPos("ISO",wnd)
     b = cv2.getTrackbarPos("Brightness",wnd)
     camera.brightness = b
-    camera.ISO = iso
+    #camera.ISO = iso
     lower=np.array([lowerHue,lowerSat,lowerVal],np.uint8)
     upper=np.array([upperHue,upperSat,upperVal
                     ],np.uint8)

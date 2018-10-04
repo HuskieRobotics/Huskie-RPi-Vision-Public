@@ -31,9 +31,10 @@ def getVideo():
    # print camera.framerate
     rawCapture.truncate(0)
 
+
     ###Edit the line below and change the IP address to your robot's ip (i.e. "10.30.61.17"), port is an arbitrary number
-    client = UDP_Client.Client("10.30.61.2",5807) #(IP,PORT)
-    
+    #client = UDP_Client.Client("169.254.203.162",3807) #(IP,PORT)
+    client = UDP_Client.Client("10.30.61.2",3807) #(IP,PORT)
 
     #frame_time is a pretty precise way of getting the timestamp of your image if you need it
     frame_time = time.time()
@@ -43,12 +44,12 @@ def getVideo():
 
         ###DO YOUR PROCESSING HERE USING OpenCV and the image variable
         ###Refer to the Image Processing module and call its function process_image here
-        totalArea,ratioArea,centerX,centerY,width,height,rectangles,distance=process_image(image)
+        totalArea,ratioArea,centerX,centerY,width,height,rectangles=process_image(image)
         
         
         ###Input your data and tags into the list below to send data to the rio
         ###This data is converted to a json string FYI, makes the sending faster
-        client.sendData({"CenterX":centerX, "CenterY":centerY, "Area":totalArea,"Width":width,"Height":height,"RatioArea":ratioArea, "Time":frame_time, "Distance":distance })
+        client.sendData({"CenterX":centerX, "CenterY":centerY, "Area":totalArea,"Width":width,"Height":height,"RatioArea":ratioArea, "Timestamp":frame_time})
         
         #this trunctates the stream of images to grab the current image
         rawCapture.truncate(0)

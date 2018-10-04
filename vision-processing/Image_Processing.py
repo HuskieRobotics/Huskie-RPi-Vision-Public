@@ -2,6 +2,9 @@
 import cv2
 import time
 import numpy as np
+import math
+# from imutils import perspective
+
 
 
 ###Set these to your preferred ranges for HSV based on the data you collected from the Testing Suite
@@ -36,7 +39,7 @@ def process_image(image):
         width = rightRectangle[0] - leftRectangle[0] +leftRectangle[2]
         height =(rightRectangle[3]+leftRectangle[3])/2.0
        # print (height)
-
+        
        #approximate distance between camera and target (caluculated by using area and quadratic regression)
         distance=((0.0018524597*height*height)+(-1.08509246*height)+178.7074289)
        # print(height*(-1.5)+290)
@@ -51,7 +54,7 @@ def process_image(image):
         pass
     
     
-    return totalArea,ratioArea,centerX,centerY,width,height,rectangles, distance
+    return totalArea,ratioArea,centerX,centerY,width,height,rectangles#,distance
 
     ###Here return the data you have collected
     ###ex return targetX,targetY,Area
@@ -136,35 +139,136 @@ def detectRectangles(image):
     rectangles = findRectangles(contours)
     rectangles = sorted(rectangles, key = cv2.contourArea,reverse=True)[:10]
     index = len(rectangles)-1
-    print "Before:" , len(rectangles)
+    #####print "Before:" , len(rectangles)
     while index>=0:
         
-        cv2.imshow('b',image)
-        
+        #########cv2.imshow('b',image)
         x,y,w,h = cv2.boundingRect(rectangles[index])
         area= cv2.contourArea(rectangles[index])
        
         #checks if area is within reasonable range
-        if area< 150  or area>15000:
+        # Previously area < 150, lowered to increase ability to pick up
+        # rectangles from further distances
+        if area< 100  or area>15000:
             #print(area)
             #print ("Area Deletion")
             rectangles.pop(index)
+            
          #checks for correct aspect ratiorectangles of the rectangles
-        elif (abs(float(h)/w - 7.25) >4 ):
+            #5 used to be 7.25
+        elif (abs(float(h)/w - 5) >4 ):
             #print ("Ratio Deletion", area)
             #print (abs(float(h)/w))
             rectangles.pop(index)
-        #print("Length: ", len(rectangles))
             
+
+        #print("Length: ", len(rectangles))
         index-=1
-    print "After:", len(rectangles)
+    # Remove rectangles if there are duplicates of an angle
+    # Can only be one 14.5 degree angle and -14.5 degree angle
+    # rectData contains a string for each rectangle that says
+    # if it a left rectangle or a right rectangle
+    rectData = []
+    ####print rectangles
+    xCords=[]
+    for i in range(len(rectangles)):
+        rectangle = rectangles[i]
+        xCords.append(int(rectangle[0,0]))
+    xCords.sort()
+    sortedRectangles=[]
+    for coordinate in xCords:
+        for j in rectangles:
+            if int(j[0,0])==coordinate:
+                sortedRectangles.append(j)
+                break
+                
+    rectangles=sortedRectangles
+    for i in range(len(rectangles)):
+        rectangle = rectangles[i]
+        #first point is always bottom most and then goes clockwise from there
+        x1= rectangle[0,0]
+        y1= rectangle[0,1]
+        
+        x2= rectangle[1,0]
+        y2= rectangle[1,1]
+
+##        dx = x1-x2
+##        dy = y1-y2
+##
+##        angle = math.acos((dy)/math.sqrt((dx**2)+(dy**2)))
+##        if angle<0:
+##            rectData.append("left")
+##        else:
+##            rectData.append("right")
+
+        x3 = rectangle[2,0]
+        y3= rectangle[2,1]
+
+        distance1 =  math.sqrt(((x1-x2)**2)+((y1-y2)**2))
+        
+        distance2 =  math.sqrt(((x2-x3)**2)+((y2-y3)**2))
+
+        if(distance1>distance2):
+            rectData.append("right")
+        else:
+            rectData.append("left")
+    # Remove stray rectangles, and narrow in on a specific vision target
+    if rectData[0] == "right":
+        rectData.pop(0)
+        rectangles.pop(0)
+    if rectData[-1] == "left":
+        rectData.pop(-1)
+        rectangles.pop(-1)
+    if len(rectangles) == 6:
+        rectangles.pop(0)
+        rectData.pop(0)
+        rectangles.pop(0)
+        rectData.pop(0)
+        rectangles.pop(-1)
+        rectData.pop(-1)
+        rectangles.pop(-1)
+        rectData.pop(-1)
+    if len(rectangles) == 4:
+        rect1 = rectangles[1]
+        rect2 = rectangles[2]
+        if abs(160 - rect1[3, 0]) < abs(160 - rect2[1, 0]):
+            rectangles.pop(-1)
+            rectangles.pop(-1)
+            rectData.pop(-1)
+            rectData.pop(-1)
+        else:
+            rectangles.pop(0)
+            rectangles.pop(0)
+            rectData.pop(0)
+            rectData.pop(0)
+####        rectangle = rectangles[i]
+####        leftMost = 1000
+####        leftMostIndex = -1
+####        secondLeftMost = 1000
+####        secondLeftMostIndex = -1
+####        for j in range(len(rectangle)):
+####            if rectangle[j, 0] < leftMost:
+####                secondLeftMost = leftMost
+####                secondLeftMostIndex = leftMostIndex
+####                leftMost = rectangle[j, 0]
+####                leftMostIndex = j
+####            elif rectangle[j, 0] < secondLeftMost:
+####                secondLeftMost = rectangle[j, 0]
+####                secondLeftMostIndex = j
+####        if rectangle[leftMostIndex, 1] > rectangle[secondLeftMostIndex, 1]:
+####            rectData.append(True)
+####        else:
+####            rectData.append(False)
+    #####print rectData
+    #####print "After:", len(rectangles)
 ##    if len(rectangles)>=1:
 ##        print (rectangles[0][3])
 ##        print (rectangles[1][3])
     #moved this frm the top on 3/10/18
-    cv2.drawContours(image,rectangles,-1,(24,255,0),3)
-    cv2.imshow('c',image)
+    #######cv2.drawContours(image,rectangles,-1,(24,255,0),3)
+    #######cv2.imshow('c',image)
     return rectangles
+
 
 
 def findRectangles(contours):
@@ -184,7 +288,7 @@ def findRectangles(contours):
 #things to try
 
 #Finding contours : foo, contours, hierarchy = cv2.findContours(frame, cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
-#Finding rectangles around contour : rectangle = np.int0(cv2.boxPoints(cv2.minAreaRect(contour)))
+#Finding rectangles around contour : rectangle = np.int0(cv2.boxPinAreaRect(contour)))
 #Finding area of contour : area = cv2.contourArea(contour)
 
 

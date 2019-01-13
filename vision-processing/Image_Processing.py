@@ -14,7 +14,7 @@ upperC = np.array([75, 255, 93],np.uint8)
 def process_image(image):
     originalImage=image
     
-    totalArea,ratioArea,centerX,centerY,width,height,rectangles = 0,0,0,0,0,0,0
+    totalArea,ratioArea,centerX,centerY,width,height,rectangles,distance = 0,0,0,0,0,0,0,0
     #Initialize all the data you are going to collect to 0. This ensures that if the target is not detected, it will return 0 and not an error
     #ex. targetX,targetY,Area = 0,0,0
 
@@ -38,13 +38,14 @@ def process_image(image):
         ratioArea = getRatioArea(leftRectangle,rightRectangle)
         width = rightRectangle[0] - leftRectangle[0] +leftRectangle[2]
         height =(rightRectangle[3]+leftRectangle[3])/2.0
-       # print (height)
-        
+       # print (height*height)
+        #totalArea = width * height
+        #print height
        #approximate distance between camera and target (caluculated by using area and quadratic regression)
-        distance=((0.0018524597*height*height)+(-1.08509246*height)+178.7074289)
+        distance= 1474/height
        # print(height*(-1.5)+290)
-        
-        totalArea = width * height 
+       # print distance
+       
         
         ###operations on the frame come here, set all the variables to desired numbers based on contours and other things you find from the image
         ###ex. targetX = getX(thresholdedFrame)
@@ -54,7 +55,7 @@ def process_image(image):
         pass
     
     
-    return totalArea,ratioArea,centerX,centerY,width,height,rectangles#,distance
+    return totalArea,ratioArea,centerX,centerY,width,height,rectangles,distance
 
     ###Here return the data you have collected
     ###ex return targetX,targetY,Area
@@ -265,8 +266,8 @@ def detectRectangles(image):
 ##        print (rectangles[0][3])
 ##        print (rectangles[1][3])
     #moved this frm the top on 3/10/18
-    #######cv2.drawContours(image,rectangles,-1,(24,255,0),3)
-    #######cv2.imshow('c',image)
+    ####cv2.drawContours(image,rectangles,-1,(24,255,0),3)
+    ####cv2.imshow('c',image)
     return rectangles
 
 

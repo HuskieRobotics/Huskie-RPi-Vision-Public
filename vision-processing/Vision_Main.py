@@ -44,12 +44,13 @@ def getVideo():
 
         ###DO YOUR PROCESSING HERE USING OpenCV and the image variable
         ###Refer to the Image Processing module and call its function process_image here
-        totalArea,ratioArea,centerX,centerY,width,height,rectangles=process_image(image)
+        totalArea,ratioArea,centerX,centerY,width,height,rectangles,distance=process_image(image)
         
         
         ###Input your data and tags into the list below to send data to the rio
         ###This data is converted to a json string FYI, makes the sending faster
-        client.sendData({"CenterX":centerX, "CenterY":centerY, "Area":totalArea,"Width":width,"Height":height,"RatioArea":ratioArea, "Timestamp":frame_time})
+         
+        client.sendData({"CenterX":centerX, "CenterY":centerY, "Area":totalArea,"Width":width,"Height":height,"RatioArea":ratioArea, "Timestamp":frame_time, "Distance":distance})
         
         #this trunctates the stream of images to grab the current image
         rawCapture.truncate(0)

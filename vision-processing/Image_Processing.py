@@ -29,13 +29,14 @@ def process_image(image):
 ##    
     #cv2.imshow('a',newFr)
    # cv2.imshow('a',originalImage)
+    centers = []
+    heights = []
+    areaRatios = []
+    allWidths = []
+    allHeights = []
     try:
         rectangles = detectRectangles(newFrame)
-        centers = []
-        heights = []
-        areaRatios = []
-        allWidths = []
-        allHeights = []
+        
         for i in range(0, len(rectangles), 2):
             lRect, rRect = rectangleStats([rectangles[i], rectangles[i+1]])
             centerX, centerY = getCenter(lRect, rRect)

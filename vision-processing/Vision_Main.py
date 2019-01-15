@@ -38,6 +38,7 @@ def getVideo():
 
     #frame_time is a pretty precise way of getting the timestamp of your image if you need it
     frame_time = time.time()
+    frames = 0
     for frame in camera.capture_continuous(rawCapture,format = 'rgb',use_video_port = True):
         
         image = frame.array
@@ -54,10 +55,16 @@ def getVideo():
         
         #this trunctates the stream of images to grab the current image
         rawCapture.truncate(0)
-        frame_time = time.time()
+        #frame_time = time.time()
+##        frames += 1
+##        currentTime = time.time()
+##        runtime = frame_time - currentTime
+        #fps = frames / runtime
+        #print fps
         if cv2.waitKey(1) & 0xFF == ord('q'):
             cv2.destroyAllWindows()
             break
+        
 
 
 getVideo()

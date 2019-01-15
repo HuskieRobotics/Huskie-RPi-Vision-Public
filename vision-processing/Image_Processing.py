@@ -31,18 +31,35 @@ def process_image(image):
    # cv2.imshow('a',originalImage)
     try:
         rectangles = detectRectangles(newFrame)
-        leftRectangle, rightRectangle = rectangleStats(rectangles)
+        centers = []
+        heights = []
+        areaRatios = []
+        allWidths = []
+        allHeights = []
+        for i in range(0, len(rectangles), 2):
+            lRect, rRect = rectangleStats([rectangles[i], rectangles[i+1]])
+            centerX, centerY = getCenter(lRect, rRect)
+            centers.append(centerX)
+            areaRatio = getRatioArea(lRect, rRect)
+            areaRatios.append(areaRatio)
+            height = (rRect[3]+lRect[3])/2.0
+            heights.append(height)
+	    allHeights.append(lRect[3])
+            allHeights.append(rRect[3])
+            allWidths.append(lRect[2])
+            allWidths.append(rRect[2])
+        #leftRectangle, rightRectangle = rectangleStats(rectangles)
     
-        centerX,centerY = getCenter(leftRectangle,rightRectangle)
+        #centerX,centerY = getCenter(leftRectangle,rightRectangle)
         
-        ratioArea = getRatioArea(leftRectangle,rightRectangle)
-        width = rightRectangle[0] - leftRectangle[0] +leftRectangle[2]
-        height =(rightRectangle[3]+leftRectangle[3])/2.0
+        #ratioArea = getRatioArea(leftRectangle,rightRectangle)
+        #width = rightRectangle[0] - leftRectangle[0] +leftRectangle[2]
+        #height =(rightRectangle[3]+leftRectangle[3])/2.0
        # print (height*height)
         #totalArea = width * height
         #print height
-       #approximate distance between camera and target (caluculated by using area and quadratic regression)
-        distance= 1474/height
+       #approximate distance between camera and target (caluculated by using area and regression)
+        #distance= 1474/height
        # print(height*(-1.5)+290)
        # print distance
        
@@ -54,8 +71,8 @@ def process_image(image):
        # print e
         pass
     
-    
-    return totalArea,ratioArea,centerX,centerY,width,height,rectangles,distance
+    return centers, heights, areaRatios, allHeights, allWidths 
+    #return totalArea,ratioArea,centerX,centerY,width,height,rectangles,distance
 
     ###Here return the data you have collected
     ###ex return targetX,targetY,Area
@@ -107,7 +124,7 @@ def calculations(frame):
     targetX,targetY = getCenter(leftRectangle,rightRectangle)
     targetW = rightRectangle[0] - leftRectangle[0] +leftRectangle[2]
     targetH =(rightRectangle[3]+leftRectangle[3])/2.0
-    print (targetH)
+    ###print (targetH)
     return (targetX, targetY, targetW, targetH)
 
 
@@ -150,7 +167,7 @@ def detectRectangles(image):
         #checks if area is within reasonable range
         # Previously area < 150, lowered to increase ability to pick up
         # rectangles from further distances
-        if area< 100  or area>15000:
+        if area< 50  or area>15000:
             #print(area)
             #print ("Area Deletion")
             rectangles.pop(index)
@@ -220,28 +237,30 @@ def detectRectangles(image):
     if rectData[-1] == "left":
         rectData.pop(-1)
         rectangles.pop(-1)
-    if len(rectangles) == 6:
-        rectangles.pop(0)
-        rectData.pop(0)
-        rectangles.pop(0)
-        rectData.pop(0)
-        rectangles.pop(-1)
-        rectData.pop(-1)
-        rectangles.pop(-1)
-        rectData.pop(-1)
-    if len(rectangles) == 4:
-        rect1 = rectangles[1]
-        rect2 = rectangles[2]
-        if abs(160 - rect1[3, 0]) < abs(160 - rect2[1, 0]):
-            rectangles.pop(-1)
-            rectangles.pop(-1)
-            rectData.pop(-1)
-            rectData.pop(-1)
-        else:
-            rectangles.pop(0)
-            rectangles.pop(0)
-            rectData.pop(0)
-            rectData.pop(0)
+##    if len(rectangles) == 6:
+##        rectangles.pop(0)
+##        rectData.pop(0)
+##        rectangles.pop(0)
+##        rectData.pop(0)
+##        rectangles.pop(-1)
+##        rectData.pop(-1)
+##        rectangles.pop(-1)
+##        rectData.pop(-1)
+##    if len(rectangles) == 4:
+##        rect0, rect1 = rectangleStats([rectangles[0], rectangles[1]])
+##        rect2, rect3 = rectangleStats([rectangles[2], rectangles[3]])
+##        lcenterX = float(rect0[0]+rect0[2]+rect1[0])/2.0
+##        rcenterX = float(rect2[0]+rect2[2]+rect3[0])/2.0
+##        if abs(160-lcenterX) < abs(160-rcenterX):
+##            rectangles.pop(-1)
+##            rectangles.pop(-1)
+##            rectData.pop(-1)
+##            rectData.pop(-1)
+##        else:
+##            rectangles.pop(0)
+##            rectangles.pop(0)
+##            rectData.pop(0)
+##            rectData.pop(0)
 ####        rectangle = rectangles[i]
 ####        leftMost = 1000
 ####        leftMostIndex = -1
@@ -266,7 +285,7 @@ def detectRectangles(image):
 ##        print (rectangles[0][3])
 ##        print (rectangles[1][3])
     #moved this frm the top on 3/10/18
-    ####cv2.drawContours(image,rectangles,-1,(24,255,0),3)
+    #####cv2.drawContours(image,rectangles,-1,(24,255,0),3)
     ####cv2.imshow('c',image)
     return rectangles
 

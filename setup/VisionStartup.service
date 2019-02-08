@@ -1,5 +1,5 @@
 [Service]
-WorkingDirectory=/home/pi/Huskie-Vision/setup/
+WorkingDirectory=/home/pi/Huskie-Vision/
 ExecStart= /home/pi/Huskie-Vision/setup/launcher.sh
 Restart=always
 StandardOutput=syslog

@@ -38,29 +38,65 @@ def getVideo():
 
     #frame_time is a pretty precise way of getting the timestamp of your image if you need it
     frame_time = time.time()
+    init_time = time.time()
     frames = 0
+    
+    log = open("log.txt", "w")
+    log.close()
+    lastLenRectangles = 0
     for frame in camera.capture_continuous(rawCapture,format = 'rgb',use_video_port = True):
-        
         image = frame.array
-
+        log = open("log.txt", "a")
+        
         ###DO YOUR PROCESSING HERE USING OpenCV and the image variable
         ###Refer to the Image Processing module and call its function process_image here
-        centers, heights, areaRatios, allHeights, allWidths =process_image(image)
+        centers, heights, areaRatios, allHeights, allWidths, newImage =process_image(image)
         
-        
+                
         ###Input your data and tags into the list below to send data to the rio
         ###This data is converted to a json string FYI, makes the sending faster
-        lenRectangles = len(centers) 
+        lenRectangles = len(centers)
         client.sendData({"CenterXs":centers, "Heights":heights,"RatioAreas":areaRatios,"LenRectangles":lenRectangles,"AllHeights":allHeights,"AllWidths":allWidths})
         
         #this trunctates the stream of images to grab the current image
         rawCapture.truncate(0)
         #frame_time = time.time()
-##        frames += 1
-##        currentTime = time.time()
 ##        runtime = frame_time - currentTime
         #fps = frames / runtime
         #print fps
+        frames += 1
+
+        last_time = frame_time
+        frame_time = time.time()
+        framerate_time = frame_time - init_time
+        fps = frames / framerate_time
+        timeDifference = frame_time - last_time
+        
+        logData = "Frame: " + str(frames) + " Seconds since last log: " + str(timeDifference)
+        logData +=  " Number of Targets: " + str(lenRectangles) + " Heights: " + str(heights)
+        logData += " RatioAreas: " + str(areaRatios) + " CenterXs: " + str(centers)
+        logData += " Framerate: " + str(fps)
+        log.write(logData)
+        
+        
+        if (lastLenRectangles == 0 and lenRectangles > 0) and frames > 1:
+            path = "/home/pi/Huskie-Vision/setup/StoredImages/"
+            filename1 = path + str(frames) + "BeforeWithoutRectangles" + ".jpg"
+            filename2 = path + str(frames) + "AfterWithRectangles" + ".jpg"
+            log.write(" Filename 1: " + filename1 + " Filename 2: " + filename2)
+            cv2.imwrite(filename1, lastImage)
+            cv2.imwrite(filename2, newImage)
+        elif (lastLenRectangles > 0 and lenRectangles == 0) and frames > 1:
+            path = "/home/pi/Huskie-Vision/setup/StoredImages/"
+            filename1 = path + str(frames) + "BeforeWithRectangles" + ".jpg"
+            filename2 = path + str(frames) + "AfterWithoutRectangles" + ".jpg"
+            log.write(" Filename 1: " + filename1 + " Filename 2: " + filename2)
+            cv2.imwrite(filename1, lastImage)
+            cv2.imwrite(filename2, newImage)
+        lastLenRectangles = lenRectangles
+        lastImage = newImage
+        log.write("\n")
+        log.close()
         if cv2.waitKey(1) & 0xFF == ord('q'):
             cv2.destroyAllWindows()
             break

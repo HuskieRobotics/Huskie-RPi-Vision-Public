@@ -34,8 +34,9 @@ def process_image(image):
     areaRatios = []
     allWidths = []
     allHeights = []
+    newImage = image
     try:
-        rectangles = detectRectangles(newFrame)
+        rectangles, newImage = detectRectangles(newFrame)
         
         for i in range(0, len(rectangles), 2):
             lRect, rRect = rectangleStats([rectangles[i], rectangles[i+1]])
@@ -72,7 +73,7 @@ def process_image(image):
        # print e
         pass
     
-    return centers, heights, areaRatios, allHeights, allWidths 
+    return centers, heights, areaRatios, allHeights, allWidths, newImage 
     #return totalArea,ratioArea,centerX,centerY,width,height,rectangles,distance
 
     ###Here return the data you have collected
@@ -286,9 +287,9 @@ def detectRectangles(image):
 ##        print (rectangles[0][3])
 ##        print (rectangles[1][3])
     #moved this frm the top on 3/10/18
-    #####cv2.drawContours(image,rectangles,-1,(24,255,0),3)
+    cv2.drawContours(image,rectangles,-1,(24,255,0),3)
     ####cv2.imshow('c',image)
-    return rectangles
+    return rectangles, image
 
 
 

@@ -17,7 +17,10 @@ def getVideo():
 
 
     debug = True
-    
+    #Set this to true while testing in IDLE to view images
+    #DO NOT SET TO TRUE WHEN RUNNING IN COMMAND LINE/AT STARTUP
+    #This will cause code to break when run in the envoironments stated above
+    showImages = False
     #Initialize Camera Stream
     camera = PiCamera()
     camera.resolution=(320,240)
@@ -26,7 +29,7 @@ def getVideo():
     ##camera.exposure_mode= 'sports'
     
     #These values are subject to change, use the Testing Suite to determine what range of values you want
-    camera.brightness = 24
+    camera.brightness = 19
     
     camera.shutter_speed = 1000
     #print camera.shutter_speed
@@ -54,7 +57,7 @@ def getVideo():
         
         ###DO YOUR PROCESSING HERE USING OpenCV and the image variable
         ###Refer to the Image Processing module and call its function process_image here
-        centers, heights, areaRatios, allHeights, allWidths, newImage =process_image(image)
+        centers, heights, areaRatios, allHeights, allWidths, newImage =process_image(image, showImages)
         #centers, heights, areaRatios, allHeights, allWidths, newImage = [], [], [], [], [], image
                 
         ###Input your data and tags into the list below to send data to the rio
@@ -115,6 +118,7 @@ def getVideo():
             lastRawImage = image
             log.write("\n")
             log.close()
+
         if cv2.waitKey(1) & 0xFF == ord('q'):
             cv2.destroyAllWindows()
             break

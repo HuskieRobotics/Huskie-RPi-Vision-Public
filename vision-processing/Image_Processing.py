@@ -11,8 +11,9 @@ import math
 lowerC = np.array([10,50, 20],np.uint8)
 upperC = np.array([75, 255, 93],np.uint8)
 
-def process_image(image):
+def process_image(image, showImages):
     originalImage=image
+    originalImage2 = image
     
     totalArea,ratioArea,centerX,centerY,width,height,rectangles,distance = 0,0,0,0,0,0,0,0
     #Initialize all the data you are going to collect to 0. This ensures that if the target is not detected, it will return 0 and not an error
@@ -36,7 +37,13 @@ def process_image(image):
     allHeights = []
     newImage = image
     try:
-        rectangles, newImage = detectRectangles(newFrame)
+        rectangles, origContours, newImage = detectRectangles(newFrame)
+        if showImages:
+            cv2.drawContours(originalImage2,rectangles,-1,(24,255,0),3)
+            cv2.imshow("Post-processing", originalImage2)
+            cv2.drawContours(originalImage,origContours,-1,(24,255,0),3)
+        
+            cv2.imshow("Original", originalImage)
         
         for i in range(0, len(rectangles), 2):
             lRect, rRect = rectangleStats([rectangles[i], rectangles[i+1]])
@@ -46,7 +53,7 @@ def process_image(image):
             areaRatios.append(areaRatio)
             height = (rRect[3]+lRect[3])/2.0
             heights.append(height)
-	    allHeights.append(lRect[3])
+            allHeights.append(lRect[3])
             allHeights.append(rRect[3])
             allWidths.append(lRect[2])
             allWidths.append(rRect[2])
@@ -156,6 +163,8 @@ def getCenter(leftRectangle,rightRectangle):
     
 def detectRectangles(image):
     a,contours,hierarchy = cv2.findContours(image,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
+##    cv2.drawContours(image,contours,-1,(24,255,0),3)
+##    cv2.imshow('a',image)
     rectangles = findRectangles(contours)
     rectangles = sorted(rectangles, key = cv2.contourArea,reverse=True)[:10]
     index = len(rectangles)-1
@@ -169,7 +178,8 @@ def detectRectangles(image):
         #checks if area is within reasonable range
         # Previously area < 150, lowered to increase ability to pick up
         # rectangles from further distances
-        if area< 50  or area>15000:
+
+        if area< 25  or area>11000:
             #print(area)
             #print ("Area Deletion")
             rectangles.pop(index)
@@ -287,9 +297,9 @@ def detectRectangles(image):
 ##        print (rectangles[0][3])
 ##        print (rectangles[1][3])
     #moved this frm the top on 3/10/18
-    cv2.drawContours(image,rectangles,-1,(24,255,0),3)
-    ####cv2.imshow('c',image)
-    return rectangles, image
+    ###cv2.drawContours(image,rectangles,-1,(24,255,0),3)
+    ###cv2.imshow('c',image)
+    return rectangles, contours, image
 
 
 

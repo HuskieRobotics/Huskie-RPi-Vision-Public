@@ -89,18 +89,28 @@ def getVideo():
                 path = "/home/pi/Huskie-Vision/setup/StoredImages/"
                 filename1 = path + str(frames) + "BeforeWithoutRectangles" + ".jpg"
                 filename2 = path + str(frames) + "AfterWithRectangles" + ".jpg"
+                filename3 = path + str(frames) + "BeforeWithoutRectanglesRaw" + ".jpg"
+                filename4 = path + str(frames) + "AfterWithRectanglesRaw" + ".jpg"
+
                 log.write(" Filename 1: " + filename1 + " Filename 2: " + filename2)
                 cv2.imwrite(filename1, lastImage)
                 cv2.imwrite(filename2, newImage)
+                cv2.imwrite(filename3, lastRawImage)
+                cv2.imwrite(filename4, image)
             elif (lastLenRectangles > 0 and lenRectangles == 0) and frames > 1:
                 path = "/home/pi/Huskie-Vision/setup/StoredImages/"
                 filename1 = path + str(frames) + "BeforeWithRectangles" + ".jpg"
                 filename2 = path + str(frames) + "AfterWithoutRectangles" + ".jpg"
+                filename3 = path + str(frames) + "BeforeWithRectanglesRaw" + ".jpg"
+                filename4 = path + str(frames) + "AfterWithoutRectanglesRaw" + ".jpg"
                 log.write(" Filename 1: " + filename1 + " Filename 2: " + filename2)
                 cv2.imwrite(filename1, lastImage)
                 cv2.imwrite(filename2, newImage)
+                cv2.imwrite(filename3, lastRawImage)
+                cv2.imwrite(filename4, image)
             lastLenRectangles = lenRectangles
             lastImage = newImage
+            lastRawImage = image
             log.write("\n")
             log.close()
         if cv2.waitKey(1) & 0xFF == ord('q'):

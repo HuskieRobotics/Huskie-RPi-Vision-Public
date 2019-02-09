@@ -1,268 +1,116 @@
-Frame: 1 Seconds since last log: 0.159307003021 Number of Targets: 2 Heights: [78.0, 38.5] RatioAreas: [2.6052631578947367, 0.7804878048780488] CenterXs: [80.0, 126.0] Framerate: 6.27731008173
-Frame: 2 Seconds since last log: 0.0998330116272 Number of Targets: 3 Heights: [47.5, 38.5, 50.5] RatioAreas: [0.9855072463768116, 0.9021842355175689, 0.24164889836531628] CenterXs: [46.5, 167.0, 262.0] Framerate: 7.71792779274
-Frame: 3 Seconds since last log: 0.0963439941406 Number of Targets: 3 Heights: [35.5, 31.5, 53.0] RatioAreas: [6.375, 2.223684210526316, 0.7878787878787878] CenterXs: [83.0, 150.5, 258.0] Framerate: 8.43927176147
-Frame: 4 Seconds since last log: 0.0915360450745 Number of Targets: 3 Heights: [26.0, 42.0, 42.5] RatioAreas: [1.0, 4.72, 1.4711538461538463] CenterXs: [75.0, 156.0, 205.0] Framerate: 8.94820646159
-Frame: 5 Seconds since last log: 0.0884490013123 Number of Targets: 3 Heights: [22.5, 23.5, 43.0] RatioAreas: [0.375, 0.6098484848484849, 0.4098360655737705] CenterXs: [70.0, 125.0, 252.0] Framerate: 9.33766179989
-Frame: 6 Seconds since last log: 0.130338907242 Number of Targets: 2 Heights: [31.0, 47.0] RatioAreas: [4.361538461538461, 0.5466297322253001] CenterXs: [165.0, 258.0] Framerate: 9.01164940908
-Frame: 7 Seconds since last log: 0.128955125809 Number of Targets: 2 Heights: [31.5, 28.0] RatioAreas: [2.3073593073593073, 2.031347962382445] CenterXs: [169.5, 261.0] Framerate: 8.80769049623
-Frame: 8 Seconds since last log: 0.0203769207001 Number of Targets: 2 Heights: [41.0, 44.0] RatioAreas: [1.1454545454545455, 1.0] CenterXs: [138.5, 212.5] Framerate: 9.81430224409
-Frame: 9 Seconds since last log: 0.0445280075073 Number of Targets: 2 Heights: [40.5, 45.0] RatioAreas: [1.1794871794871795, 1.0] CenterXs: [142.5, 217.0] Framerate: 10.4691954064
-Frame: 10 Seconds since last log: 0.0207879543304 Number of Targets: 1 Heights: [43.0] RatioAreas: [0.7333333333333333] CenterXs: [182.5] Framerate: 11.3577913432
-Frame: 11 Seconds since last log: 0.0448379516602 Number of Targets: 2 Heights: [28.5, 46.0] RatioAreas: [7.294642857142857, 1.0] CenterXs: [158.0, 229.0] Framerate: 11.8881542179
-Frame: 12 Seconds since last log: 0.0286931991577 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.6738738738738739] CenterXs: [195.5] Framerate: 12.5788270259
-Frame: 13 Seconds since last log: 0.0285429954529 Number of Targets: 1 Heights: [27.0] RatioAreas: [8.095238095238095] CenterXs: [209.5] Framerate: 13.2311883207
-Frame: 14 Seconds since last log: 0.0445489883423 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 13.6309288885 Filename 1: /home/pi/Huskie-Vision/setup/StoredImages/14BeforeWithRectangles.jpg Filename 2: /home/pi/Huskie-Vision/setup/StoredImages/14AfterWithoutRectangles.jpg
-Frame: 15 Seconds since last log: 0.134153842926 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 12.9173393318
-Frame: 16 Seconds since last log: 0.0201461315155 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 13.5435291269
-Frame: 17 Seconds since last log: 0.043683052063 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 13.876882297
-Frame: 18 Seconds since last log: 0.0200538635254 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 14.4565204154
-Frame: 19 Seconds since last log: 0.0435631275177 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 14.7438143131
-Frame: 20 Seconds since last log: 0.0276298522949 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 15.1940368633
-Frame: 21 Seconds since last log: 0.0512170791626 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 15.3562321745
-Frame: 22 Seconds since last log: 0.13654589653 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 14.6269899669
-Frame: 23 Seconds since last log: 0.134094953537 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 14.0401099876
-Frame: 24 Seconds since last log: 0.0888020992279 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 13.8972054637
-Frame: 25 Seconds since last log: 0.037789106369 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 14.166272287
-Frame: 26 Seconds since last log: 0.13818192482 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 13.6630907289
-Frame: 27 Seconds since last log: 0.133930921555 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 13.2556463629
-Frame: 28 Seconds since last log: 0.12831902504 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 12.9319091264
-Frame: 29 Seconds since last log: 0.127320051193 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 12.6499072172
-Frame: 30 Seconds since last log: 0.0203559398651 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 12.9709375983
-Frame: 31 Seconds since last log: 0.0441191196442 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 13.1524127447
-Frame: 32 Seconds since last log: 0.0288920402527 Number of Targets: 1 Heights: [42.0] RatioAreas: [0.55] CenterXs: [238.0] Framerate: 13.4122755677 Filename 1: /home/pi/Huskie-Vision/setup/StoredImages/32BeforeWithoutRectangles.jpg Filename 2: /home/pi/Huskie-Vision/setup/StoredImages/32AfterWithRectangles.jpg
-Frame: 33 Seconds since last log: 0.0339307785034 Number of Targets: 1 Heights: [43.0] RatioAreas: [0.7447735191637631] CenterXs: [231.0] Framerate: 13.6374635853
-Frame: 34 Seconds since last log: 0.0296931266785 Number of Targets: 1 Heights: [43.5] RatioAreas: [0.8333333333333334] CenterXs: [224.5] Framerate: 13.8803954355
-Frame: 35 Seconds since last log: 0.0454959869385 Number of Targets: 1 Heights: [43.0] RatioAreas: [0.8979591836734694] CenterXs: [218.5] Framerate: 14.0280902683
-Frame: 36 Seconds since last log: 0.0183420181274 Number of Targets: 1 Heights: [43.0] RatioAreas: [1.0088183421516754] CenterXs: [213.0] Framerate: 14.3235925532
-Frame: 37 Seconds since last log: 0.0450189113617 Number of Targets: 1 Heights: [42.5] RatioAreas: [1.0238095238095237] CenterXs: [208.5] Framerate: 14.4624190556
-Frame: 38 Seconds since last log: 0.028135061264 Number of Targets: 1 Heights: [42.5] RatioAreas: [0.9141156462585034] CenterXs: [203.0] Framerate: 14.6917255572
-Frame: 39 Seconds since last log: 0.0302059650421 Number of Targets: 1 Heights: [42.0] RatioAreas: [0.8888888888888888] CenterXs: [199.0] Framerate: 14.9042921972
-Frame: 40 Seconds since last log: 0.0349700450897 Number of Targets: 1 Heights: [42.0] RatioAreas: [0.8513289036544851] CenterXs: [195.0] Framerate: 15.0848565078
-Frame: 41 Seconds since last log: 0.0282139778137 Number of Targets: 1 Heights: [41.0] RatioAreas: [0.989010989010989] CenterXs: [193.0] Framerate: 15.2991930504
-Frame: 42 Seconds since last log: 0.0468299388885 Number of Targets: 1 Heights: [40.5] RatioAreas: [1.0131332082551594] CenterXs: [190.5] Framerate: 15.4031790778
-Frame: 43 Seconds since last log: 0.0227921009064 Number of Targets: 1 Heights: [40.0] RatioAreas: [1.08] CenterXs: [188.0] Framerate: 15.6391960734
-Frame: 44 Seconds since last log: 0.0289900302887 Number of Targets: 1 Heights: [40.5] RatioAreas: [1.0975609756097562] CenterXs: [186.0] Framerate: 15.835928415
-Frame: 45 Seconds since last log: 0.0439078807831 Number of Targets: 1 Heights: [40.0] RatioAreas: [1.0653658536585366] CenterXs: [184.5] Framerate: 15.9438783721
-Frame: 46 Seconds since last log: 0.0279240608215 Number of Targets: 1 Heights: [40.0] RatioAreas: [1.16] CenterXs: [183.0] Framerate: 16.1385166613
-Frame: 47 Seconds since last log: 0.0511560440063 Number of Targets: 1 Heights: [39.5] RatioAreas: [1.1869565217391305] CenterXs: [182.5] Framerate: 16.198629891
-Frame: 48 Seconds since last log: 0.137531042099 Number of Targets: 1 Heights: [38.5] RatioAreas: [1.0523076923076924] CenterXs: [181.5] Framerate: 15.7946121205
-Frame: 49 Seconds since last log: 0.083958864212 Number of Targets: 1 Heights: [38.5] RatioAreas: [1.0961538461538463] CenterXs: [183.0] Framerate: 15.6901930232
-Frame: 50 Seconds since last log: 0.0288619995117 Number of Targets: 1 Heights: [39.0] RatioAreas: [1.1304347826086956] CenterXs: [183.0] Framerate: 15.8637903723
-Frame: 51 Seconds since last log: 0.0273411273956 Number of Targets: 1 Heights: [39.0] RatioAreas: [1.173913043478261] CenterXs: [183.5] Framerate: 16.0419077908
-Frame: 52 Seconds since last log: 0.0465078353882 Number of Targets: 1 Heights: [39.0] RatioAreas: [1.1304347826086956] CenterXs: [183.0] Framerate: 16.1206277903
-Frame: 53 Seconds since last log: 0.0202221870422 Number of Targets: 1 Heights: [38.0] RatioAreas: [1.173913043478261] CenterXs: [183.0] Framerate: 16.3282759075
-Frame: 54 Seconds since last log: 0.0440309047699 Number of Targets: 1 Heights: [38.0] RatioAreas: [1.1818181818181819] CenterXs: [183.0] Framerate: 16.4137035316
-Frame: 55 Seconds since last log: 0.0284900665283 Number of Targets: 1 Heights: [38.5] RatioAreas: [1.1438127090301002] CenterXs: [182.5] Framerate: 16.5741328489
-Frame: 56 Seconds since last log: 0.0285158157349 Number of Targets: 1 Heights: [38.5] RatioAreas: [1.2494279176201373] CenterXs: [182.0] Framerate: 16.7317021847
-Frame: 57 Seconds since last log: 0.0432441234589 Number of Targets: 1 Heights: [38.0] RatioAreas: [1.1137123745819397] CenterXs: [180.5] Framerate: 16.8132470835
-Frame: 58 Seconds since last log: 0.0279049873352 Number of Targets: 1 Heights: [37.5] RatioAreas: [1.3204633204633205] CenterXs: [180.0] Framerate: 16.9685463067
-Frame: 59 Seconds since last log: 0.043417930603 Number of Targets: 1 Heights: [38.0] RatioAreas: [1.3181818181818181] CenterXs: [180.0] Framerate: 17.0446001312
-Frame: 60 Seconds since last log: 0.0197789669037 Number of Targets: 1 Heights: [38.5] RatioAreas: [1.2048054919908466] CenterXs: [178.5] Framerate: 17.235011219
-Frame: 61 Seconds since last log: 0.0437841415405 Number of Targets: 1 Heights: [38.5] RatioAreas: [1.0961538461538463] CenterXs: [177.5] Framerate: 17.3046211367
-Frame: 62 Seconds since last log: 0.0213119983673 Number of Targets: 1 Heights: [38.0] RatioAreas: [1.0416666666666667] CenterXs: [177.0] Framerate: 17.4826064613
-Frame: 63 Seconds since last log: 0.0436689853668 Number of Targets: 1 Heights: [39.0] RatioAreas: [1.125] CenterXs: [178.0] Framerate: 17.548497536
-Frame: 64 Seconds since last log: 0.0287370681763 Number of Targets: 1 Heights: [38.5] RatioAreas: [1.0133333333333334] CenterXs: [177.5] Framerate: 17.6854792076
-Frame: 65 Seconds since last log: 0.0286359786987 Number of Targets: 1 Heights: [39.5] RatioAreas: [0.975] CenterXs: [178.5] Framerate: 17.820796351
-Frame: 66 Seconds since last log: 0.0440590381622 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.8672086720867209] CenterXs: [179.0] Framerate: 17.878993247
-Frame: 67 Seconds since last log: 0.0203537940979 Number of Targets: 1 Heights: [40.0] RatioAreas: [0.9230769230769231] CenterXs: [181.0] Framerate: 18.0503624867
-Frame: 68 Seconds since last log: 0.0440599918365 Number of Targets: 1 Heights: [39.5] RatioAreas: [0.8008928571428572] CenterXs: [181.5] Framerate: 18.1048637647
-Frame: 69 Seconds since last log: 0.0374481678009 Number of Targets: 1 Heights: [39.5] RatioAreas: [0.7660714285714286] CenterXs: [183.5] Framerate: 18.1897508567
-Frame: 70 Seconds since last log: 0.029727935791 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.7737594617325484] CenterXs: [185.5] Framerate: 18.3098783733
-Frame: 71 Seconds since last log: 0.0379219055176 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.7775862068965518] CenterXs: [187.0] Framerate: 18.38904308
-Frame: 72 Seconds since last log: 0.0211381912231 Number of Targets: 1 Heights: [41.0] RatioAreas: [0.7241379310344828] CenterXs: [188.5] Framerate: 18.5465051994
-Frame: 73 Seconds since last log: 0.0469949245453 Number of Targets: 1 Heights: [41.0] RatioAreas: [0.7333333333333333] CenterXs: [190.0] Framerate: 18.5791863413
-Frame: 74 Seconds since last log: 0.0212180614471 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.7064760302775441] CenterXs: [190.5] Framerate: 18.7325363728
-Frame: 75 Seconds since last log: 0.0436918735504 Number of Targets: 1 Heights: [44.0] RatioAreas: [0.75] CenterXs: [191.0] Framerate: 18.7779892192
-Frame: 76 Seconds since last log: 0.0205070972443 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.7175] CenterXs: [191.0] Framerate: 18.9311617343
-Frame: 77 Seconds since last log: 0.0444049835205 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.8351851851851851] CenterXs: [192.5] Framerate: 18.9704236314
-Frame: 78 Seconds since last log: 0.0204999446869 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.9067307692307692] CenterXs: [192.5] Framerate: 19.1202250461
-Frame: 79 Seconds since last log: 0.0442540645599 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.9067307692307692] CenterXs: [192.5] Framerate: 19.157534302
-Frame: 80 Seconds since last log: 0.0288169384003 Number of Targets: 1 Heights: [41.0] RatioAreas: [0.92] CenterXs: [192.5] Framerate: 19.2654057674
-Frame: 81 Seconds since last log: 0.0280139446259 Number of Targets: 1 Heights: [40.0] RatioAreas: [1.0950854700854702] CenterXs: [193.0] Framerate: 19.3755112939
-Frame: 82 Seconds since last log: 0.0444881916046 Number of Targets: 1 Heights: [40.0] RatioAreas: [1.0] CenterXs: [192.5] Framerate: 19.4081782262
-Frame: 83 Seconds since last log: 0.0203578472137 Number of Targets: 1 Heights: [40.5] RatioAreas: [1.0146341463414634] CenterXs: [192.5] Framerate: 19.5506604416
-Frame: 84 Seconds since last log: 0.0442731380463 Number of Targets: 1 Heights: [39.5] RatioAreas: [0.9] CenterXs: [192.0] Framerate: 19.5819988458
-Frame: 85 Seconds since last log: 0.0291287899017 Number of Targets: 1 Heights: [40.5] RatioAreas: [0.9033423667570009] CenterXs: [192.0] Framerate: 19.6814713336
-Frame: 86 Seconds since last log: 0.0294351577759 Number of Targets: 1 Heights: [39.5] RatioAreas: [0.9375] CenterXs: [192.0] Framerate: 19.7782173545
-Frame: 87 Seconds since last log: 0.0448958873749 Number of Targets: 1 Heights: [39.5] RatioAreas: [1.1076923076923078] CenterXs: [192.5] Framerate: 19.8037207639
-Frame: 88 Seconds since last log: 0.0208640098572 Number of Targets: 1 Heights: [40.0] RatioAreas: [1.0273170731707317] CenterXs: [192.5] Framerate: 19.9366654666
-Frame: 89 Seconds since last log: 0.0442531108856 Number of Targets: 1 Heights: [39.0] RatioAreas: [1.0833333333333333] CenterXs: [192.0] Framerate: 19.9630751644
-Frame: 90 Seconds since last log: 0.0204589366913 Number of Targets: 1 Heights: [38.5] RatioAreas: [1.0555555555555556] CenterXs: [192.0] Framerate: 20.0951621633
-Frame: 91 Seconds since last log: 0.0442390441895 Number of Targets: 1 Heights: [39.5] RatioAreas: [1.1538461538461537] CenterXs: [192.0] Framerate: 20.1197058239
-Frame: 92 Seconds since last log: 0.029217004776 Number of Targets: 1 Heights: [39.5] RatioAreas: [1.05625] CenterXs: [191.5] Framerate: 20.2102482763
-Frame: 93 Seconds since last log: 0.0277240276337 Number of Targets: 1 Heights: [39.0] RatioAreas: [1.0739130434782609] CenterXs: [191.5] Framerate: 20.3062532982
-Frame: 94 Seconds since last log: 0.0535409450531 Number of Targets: 1 Heights: [38.0] RatioAreas: [0.9866666666666667] CenterXs: [191.0] Framerate: 20.287430018
-Frame: 95 Seconds since last log: 0.137284040451 Number of Targets: 1 Heights: [38.0] RatioAreas: [0.9882478632478633] CenterXs: [190.5] Framerate: 19.9132412732
-Frame: 96 Seconds since last log: 0.0904359817505 Number of Targets: 1 Heights: [38.0] RatioAreas: [0.9487179487179487] CenterXs: [192.0] Framerate: 19.7484908206
-Frame: 97 Seconds since last log: 0.0298709869385 Number of Targets: 1 Heights: [38.0] RatioAreas: [0.9107692307692308] CenterXs: [193.0] Framerate: 19.8323372582
-Frame: 98 Seconds since last log: 0.0318958759308 Number of Targets: 1 Heights: [39.0] RatioAreas: [0.8092592592592592] CenterXs: [194.0] Framerate: 19.9069742393
-Frame: 99 Seconds since last log: 0.03773021698 Number of Targets: 1 Heights: [39.0] RatioAreas: [0.7388888888888889] CenterXs: [196.0] Framerate: 19.9571504551
-Frame: 100 Seconds since last log: 0.0267238616943 Number of Targets: 1 Heights: [38.0] RatioAreas: [0.7115384615384616] CenterXs: [198.5] Framerate: 20.0507207267
-Frame: 101 Seconds since last log: 0.028135061264 Number of Targets: 1 Heights: [39.0] RatioAreas: [0.6551724137931034] CenterXs: [201.0] Framerate: 20.1376258962
-Frame: 102 Seconds since last log: 0.0447099208832 Number of Targets: 1 Heights: [38.5] RatioAreas: [0.6047745358090185] CenterXs: [204.5] Framerate: 20.1573184777
-Frame: 103 Seconds since last log: 0.0205500125885 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.2726099623 Filename 1: /home/pi/Huskie-Vision/setup/StoredImages/103BeforeWithRectangles.jpg Filename 2: /home/pi/Huskie-Vision/setup/StoredImages/103AfterWithoutRectangles.jpg
-Frame: 104 Seconds since last log: 0.0346169471741 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.3309096534
-Frame: 105 Seconds since last log: 0.0454390048981 Number of Targets: 1 Heights: [38.0] RatioAreas: [0.45161290322580644] CenterXs: [217.0] Framerate: 20.3456716389 Filename 1: /home/pi/Huskie-Vision/setup/StoredImages/105BeforeWithoutRectangles.jpg Filename 2: /home/pi/Huskie-Vision/setup/StoredImages/105AfterWithRectangles.jpg
-Frame: 106 Seconds since last log: 0.134348154068 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.0183148875 Filename 1: /home/pi/Huskie-Vision/setup/StoredImages/106BeforeWithRectangles.jpg Filename 2: /home/pi/Huskie-Vision/setup/StoredImages/106AfterWithoutRectangles.jpg
-Frame: 107 Seconds since last log: 0.134500980377 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.7066037529
-Frame: 108 Seconds since last log: 0.128487825394 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.4309614127
-Frame: 109 Seconds since last log: 0.0200672149658 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.5403289422
-Frame: 110 Seconds since last log: 0.0437920093536 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.5659941427
-Frame: 111 Seconds since last log: 0.0289988517761 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.6425485222
-Frame: 112 Seconds since last log: 0.0288310050964 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.7189039182
-Frame: 113 Seconds since last log: 0.0507829189301 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.7186624956
-Frame: 114 Seconds since last log: 0.137978076935 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.4254501283
-Frame: 115 Seconds since last log: 0.133574008942 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.1597567418
-Frame: 116 Seconds since last log: 0.13397693634 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 18.9043901271
-Frame: 117 Seconds since last log: 0.0917119979858 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 18.7865711275
-Frame: 118 Seconds since last log: 0.0288000106812 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 18.8599244944
-Frame: 119 Seconds since last log: 0.037150144577 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 18.907487324
-Frame: 120 Seconds since last log: 0.0294179916382 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 18.977669862
-Frame: 121 Seconds since last log: 0.0331699848175 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.0359593822
-Frame: 122 Seconds since last log: 0.0256218910217 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.1162260216
-Frame: 123 Seconds since last log: 0.0292811393738 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.1848947057
-Frame: 124 Seconds since last log: 0.046196937561 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.202504737
-Frame: 125 Seconds since last log: 0.0220239162445 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.2915678318
-Frame: 126 Seconds since last log: 0.0440111160278 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.3147081658
-Frame: 127 Seconds since last log: 0.0277819633484 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.3854420546
-Frame: 128 Seconds since last log: 0.0271100997925 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.457565585
-Frame: 129 Seconds since last log: 0.0437278747559 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.480090309
-Frame: 130 Seconds since last log: 0.0291619300842 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.5450283603
-Frame: 131 Seconds since last log: 0.027547121048 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.6141406171
-Frame: 132 Seconds since last log: 0.0438089370728 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.6350735911
-Frame: 133 Seconds since last log: 0.028058052063 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.7015965626
-Frame: 134 Seconds since last log: 0.0277218818665 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.7685491966
-Frame: 135 Seconds since last log: 0.0437750816345 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.7882832666
-Frame: 136 Seconds since last log: 0.0287759304047 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.8511316191
-Frame: 137 Seconds since last log: 0.0437021255493 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.8703439724
-Frame: 138 Seconds since last log: 0.0170500278473 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.9660086551
-Frame: 139 Seconds since last log: 0.043135881424 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.9859584689
-Frame: 140 Seconds since last log: 0.0291171073914 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.045819108
-Frame: 141 Seconds since last log: 0.0269110202789 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.1115090812
-Frame: 142 Seconds since last log: 0.0507109165192 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.108694847
-Frame: 143 Seconds since last log: 0.0302650928497 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.1638858679
-Frame: 144 Seconds since last log: 0.0361998081207 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.2017741832
-Frame: 145 Seconds since last log: 0.0241641998291 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.273337708
-Frame: 146 Seconds since last log: 0.0749289989471 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.2015170394
-Frame: 147 Seconds since last log: 0.0188279151917 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.2870327547
-Frame: 148 Seconds since last log: 0.0428628921509 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.3049284077
-Frame: 149 Seconds since last log: 0.0283651351929 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.3628803398
-Frame: 150 Seconds since last log: 0.0283999443054 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.4202879406
-Frame: 151 Seconds since last log: 0.0433959960938 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.4356947308
-Frame: 152 Seconds since last log: 0.0275321006775 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.4946657578
-Frame: 153 Seconds since last log: 0.0271790027618 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.5541755264
-Frame: 154 Seconds since last log: 0.0429558753967 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.5698135799
-Frame: 155 Seconds since last log: 0.0264639854431 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.6304592443
-Frame: 156 Seconds since last log: 0.047306060791 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.6336408248
-Frame: 157 Seconds since last log: 0.0179090499878 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.7168342335
-Frame: 158 Seconds since last log: 0.0749988555908 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.6444820062
-Frame: 159 Seconds since last log: 0.0259511470795 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.7049367769
-Frame: 160 Seconds since last log: 0.0420019626617 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.7218188451
-Frame: 161 Seconds since last log: 0.0281519889832 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.7755823855
-Frame: 162 Seconds since last log: 0.0264649391174 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.8334757181
-Frame: 163 Seconds since last log: 0.0419721603394 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.8495380508
-Frame: 164 Seconds since last log: 0.0333487987518 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.8883461718
-Frame: 165 Seconds since last log: 0.0359671115875 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.9198789618
-Frame: 166 Seconds since last log: 0.0366039276123 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.9494416863
-Frame: 167 Seconds since last log: 0.0287640094757 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.999414012
-Frame: 168 Seconds since last log: 0.0265791416168 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.0547898138
-Frame: 169 Seconds since last log: 0.0424449443817 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.0680453065
-Frame: 170 Seconds since last log: 0.0292680263519 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.115664844
-Frame: 171 Seconds since last log: 0.0263109207153 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.1706872641
-Frame: 172 Seconds since last log: 0.0429139137268 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.1819534714
-Frame: 173 Seconds since last log: 0.0268790721893 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.2348132729
-Frame: 174 Seconds since last log: 0.0437259674072 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.243541102
-Frame: 175 Seconds since last log: 0.0190420150757 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.3160742421
-Frame: 176 Seconds since last log: 0.0430610179901 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.3260233341
-Frame: 177 Seconds since last log: 0.0262389183044 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.3792211433
-Frame: 178 Seconds since last log: 0.0429332256317 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.3890890926
-Frame: 179 Seconds since last log: 0.0313467979431 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.4285368197
-Frame: 180 Seconds since last log: 0.0284950733185 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.474993467
-Frame: 181 Seconds since last log: 0.0845329761505 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.3786895444
-Frame: 182 Seconds since last log: 0.125076055527 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.1838490949
-Frame: 183 Seconds since last log: 0.0194818973541 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.2520529049
-Frame: 184 Seconds since last log: 0.0501091480255 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.2445570095
-Frame: 185 Seconds since last log: 0.0262670516968 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.2954321564
-Frame: 186 Seconds since last log: 0.0380439758301 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.3171891092
-Frame: 187 Seconds since last log: 0.0362088680267 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.3432265574
-Frame: 188 Seconds since last log: 0.025759935379 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.3944594441
-Frame: 189 Seconds since last log: 0.0371921062469 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.4176102934
-Frame: 190 Seconds since last log: 0.0290949344635 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.4601755387
-Frame: 191 Seconds since last log: 0.026829957962 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.5079461952
-Frame: 192 Seconds since last log: 0.044075012207 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.5137769901
-Frame: 193 Seconds since last log: 0.019965171814 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.5775564172
-Frame: 194 Seconds since last log: 0.0432109832764 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.5850792146
-Frame: 195 Seconds since last log: 0.0270998477936 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.6311199595
-Frame: 196 Seconds since last log: 0.0435512065887 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.6375161225
-Frame: 197 Seconds since last log: 0.0194458961487 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.701324528
-Frame: 198 Seconds since last log: 0.0425748825073 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.7096650587
-Frame: 199 Seconds since last log: 0.026691198349 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.7556408526
-Frame: 200 Seconds since last log: 0.0425839424133 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.7636454172
-Frame: 201 Seconds since last log: 0.019376039505 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.8264433249
-Frame: 202 Seconds since last log: 0.0423200130463 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.8346912859
-Frame: 203 Seconds since last log: 0.0258748531342 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.8815836889
-Frame: 204 Seconds since last log: 0.042512178421 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.8890695586
-Frame: 205 Seconds since last log: 0.0269179344177 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.9330202779
-Frame: 206 Seconds since last log: 0.0428369045258 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.9394591156
-Frame: 207 Seconds since last log: 0.0267679691315 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.9832903169
-Frame: 208 Seconds since last log: 0.0269041061401 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.0265554727
-Frame: 209 Seconds since last log: 0.0435230731964 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.0309128093
-Frame: 210 Seconds since last log: 0.0279278755188 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.0713478769
-Frame: 211 Seconds since last log: 0.0517160892487 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.056562266
-Frame: 212 Seconds since last log: 0.135788917542 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.850932957
-Frame: 213 Seconds since last log: 0.134408950806 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.6540175258
-Frame: 214 Seconds since last log: 0.0878920555115 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.5630079176
-Frame: 215 Seconds since last log: 0.0319828987122 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.5941791154
-Frame: 216 Seconds since last log: 0.0391750335693 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.6095906861
-Frame: 217 Seconds since last log: 0.0288729667664 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.6471057195
-Frame: 218 Seconds since last log: 0.0372231006622 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.6664094571
-Frame: 219 Seconds since last log: 0.0283620357513 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.7046151815
-Frame: 220 Seconds since last log: 0.0376889705658 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.7225832529
-Frame: 221 Seconds since last log: 0.0298690795898 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.7571551196
-Frame: 222 Seconds since last log: 0.0292780399323 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.7927886009
-Frame: 223 Seconds since last log: 0.0273649692535 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.8323061529
-Frame: 224 Seconds since last log: 0.0439460277557 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.8362597703
-Frame: 225 Seconds since last log: 0.0199329853058 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.8912055438
-Frame: 226 Seconds since last log: 0.0435628890991 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.8956966651
-Frame: 227 Seconds since last log: 0.0284669399261 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.9320920074
-Frame: 228 Seconds since last log: 0.0280151367188 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.9692440654
-Frame: 229 Seconds since last log: 0.0432410240173 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.9740445199
-Frame: 230 Seconds since last log: 0.0286478996277 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.0094979722
-Frame: 231 Seconds since last log: 0.0284700393677 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.0451317543
-Frame: 232 Seconds since last log: 0.0453588962555 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.0451371854
-Frame: 233 Seconds since last log: 0.0280930995941 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.081214266
-Frame: 234 Seconds since last log: 0.0268778800964 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.119640408
-Frame: 235 Seconds since last log: 0.0434861183167 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.1232274493
-Frame: 236 Seconds since last log: 0.0277528762817 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.1594729109
-Frame: 237 Seconds since last log: 0.0272991657257 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.1964731089
-Frame: 238 Seconds since last log: 0.0434908866882 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.1997056568
-Frame: 239 Seconds since last log: 0.0274791717529 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.2359875758
-Frame: 240 Seconds since last log: 0.0281817913055 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.2706323318
-Frame: 241 Seconds since last log: 0.0432901382446 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.273950434
-Frame: 242 Seconds since last log: 0.0276000499725 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.3094646915
-Frame: 243 Seconds since last log: 0.0578808784485 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.282753684
-Frame: 244 Seconds since last log: 0.0863311290741 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.198717411
-Frame: 245 Seconds since last log: 0.0299818515778 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.2290615635
-Frame: 246 Seconds since last log: 0.0365650653839 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.2459895778
-Frame: 247 Seconds since last log: 0.0281360149384 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.2797326844
-Frame: 248 Seconds since last log: 0.0282499790192 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.3130761595
-Frame: 249 Seconds since last log: 0.0438590049744 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.3149913667
-Frame: 250 Seconds since last log: 0.0205669403076 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.3633901176
-Frame: 251 Seconds since last log: 0.0436110496521 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.3655918438
-Frame: 252 Seconds since last log: 0.0206809043884 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.4133945743
-Frame: 253 Seconds since last log: 0.0436770915985 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.4152593921
-Frame: 254 Seconds since last log: 0.0277330875397 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.4486987306
-Frame: 255 Seconds since last log: 0.0437819957733 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.4502087199
-Frame: 256 Seconds since last log: 0.0201408863068 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.4983545746
-Frame: 257 Seconds since last log: 0.0437009334564 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.4998254595
-Frame: 258 Seconds since last log: 0.0282380580902 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.5316709741
-Frame: 259 Seconds since last log: 0.0275270938873 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.5647574058
-Frame: 260 Seconds since last log: 0.0433988571167 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.5665553803
-Frame: 261 Seconds since last log: 0.0287489891052 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.596964691
-Frame: 262 Seconds since last log: 0.0273590087891 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.6299395744
-Frame: 263 Seconds since last log: 0.0432941913605 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.6316825638
-Frame: 264 Seconds since last log: 0.029079914093 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.6610279612
-Frame: 265 Seconds since last log: 0.0274560451508 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.6933825412
-Frame: 266 Seconds since last log: 0.0435659885406 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.6943500676
-Frame: 267 Seconds since last log: 0.031986951828 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.7176698763
-Frame: 268 Seconds since last log: 0.0315001010895 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.7418025864
+Frame: 1 Timestamp: 1549592900.18 Seconds since last log: 0.14395403862 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 6.94685724696
+Frame: 2 Timestamp: 1549592900.26 Seconds since last log: 0.0840539932251 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 8.77177675208
+Frame: 3 Timestamp: 1549592900.29 Seconds since last log: 0.0280110836029 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 11.7180605417
+Frame: 4 Timestamp: 1549592900.33 Seconds since last log: 0.0364570617676 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 13.6765170777
+Frame: 5 Timestamp: 1549592900.35 Seconds since last log: 0.0276739597321 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 15.6178702552
+Frame: 6 Timestamp: 1549592900.38 Seconds since last log: 0.0280790328979 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 17.2302332938
+Frame: 7 Timestamp: 1549592900.42 Seconds since last log: 0.0421957969666 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 17.9293673941
+Frame: 8 Timestamp: 1549592900.45 Seconds since last log: 0.0260469913483 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.2091633067
+Frame: 9 Timestamp: 1549592900.48 Seconds since last log: 0.0260591506958 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.3377395421
+Frame: 10 Timestamp: 1549592900.52 Seconds since last log: 0.0406198501587 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.6976384986
+Frame: 11 Timestamp: 1549592900.54 Seconds since last log: 0.0259110927582 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.6085397519
+Frame: 12 Timestamp: 1549592900.58 Seconds since last log: 0.0406079292297 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.8314423201
+Frame: 13 Timestamp: 1549592900.61 Seconds since last log: 0.0262501239777 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.572734269
+Frame: 14 Timestamp: 1549592900.65 Seconds since last log: 0.0406219959259 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.7074388193
+Frame: 15 Timestamp: 1549592900.68 Seconds since last log: 0.0257048606873 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 23.3556490885
+Frame: 16 Timestamp: 1549592900.72 Seconds since last log: 0.0406620502472 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 23.4293217461
+Frame: 17 Timestamp: 1549592900.76 Seconds since last log: 0.0416121482849 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 23.4639042136
+Frame: 18 Timestamp: 1549592900.78 Seconds since last log: 0.0248208045959 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 24.0212055485
+Frame: 19 Timestamp: 1549592900.81 Seconds since last log: 0.0265610218048 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 24.4877253749
+Frame: 20 Timestamp: 1549592900.85 Seconds since last log: 0.0409801006317 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 24.4834292062
+Frame: 21 Timestamp: 1549592900.88 Seconds since last log: 0.0253009796143 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 24.9352865889
+Frame: 22 Timestamp: 1549592900.92 Seconds since last log: 0.0406920909882 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 24.9186715542
+Frame: 23 Timestamp: 1549592900.94 Seconds since last log: 0.0260798931122 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.3038664932
+Frame: 24 Timestamp: 1549592900.98 Seconds since last log: 0.04225897789 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.2309956618
+Frame: 25 Timestamp: 1549592901.01 Seconds since last log: 0.0251700878143 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.6047571338
+Frame: 26 Timestamp: 1549592901.06 Seconds since last log: 0.0472450256348 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.3998997065
+Frame: 27 Timestamp: 1549592901.09 Seconds since last log: 0.0335428714752 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.539909898
+Frame: 28 Timestamp: 1549592901.12 Seconds since last log: 0.0310380458832 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.7303985675
+Frame: 29 Timestamp: 1549592901.15 Seconds since last log: 0.033597946167 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.8511962639
+Frame: 30 Timestamp: 1549592901.19 Seconds since last log: 0.0330350399017 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.9776247742
+Frame: 31 Timestamp: 1549592901.22 Seconds since last log: 0.033185005188 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.0937270341
+Frame: 32 Timestamp: 1549592901.26 Seconds since last log: 0.0343260765076 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.1790582713
+Frame: 33 Timestamp: 1549592901.29 Seconds since last log: 0.0323219299316 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.3016737356
+Frame: 34 Timestamp: 1549592901.32 Seconds since last log: 0.033294916153 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.3981730166
+Frame: 35 Timestamp: 1549592901.35 Seconds since last log: 0.0339891910553 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.4758967589
+Frame: 36 Timestamp: 1549592901.39 Seconds since last log: 0.0327789783478 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.5734413319
+Frame: 37 Timestamp: 1549592901.42 Seconds since last log: 0.0333700180054 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.6550228361
+Frame: 38 Timestamp: 1549592901.45 Seconds since last log: 0.0338628292084 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.7235092226
+Frame: 39 Timestamp: 1549592901.49 Seconds since last log: 0.032665014267 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.8108687881
+Frame: 40 Timestamp: 1549592901.52 Seconds since last log: 0.0333380699158 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.8822258972
+Frame: 41 Timestamp: 1549592901.55 Seconds since last log: 0.0333390235901 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.9504386647
+Frame: 42 Timestamp: 1549592901.59 Seconds since last log: 0.0335259437561 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.012478036
+Frame: 43 Timestamp: 1549592901.62 Seconds since last log: 0.0331709384918 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.0779504752
+Frame: 44 Timestamp: 1549592901.65 Seconds since last log: 0.0333790779114 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.1372595613
+Frame: 45 Timestamp: 1549592901.69 Seconds since last log: 0.0332789421082 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.1958216598
+Frame: 46 Timestamp: 1549592901.72 Seconds since last log: 0.033194065094 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.2534449963
+Frame: 47 Timestamp: 1549592901.76 Seconds since last log: 0.0367660522461 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.252284407
+Frame: 48 Timestamp: 1549592901.79 Seconds since last log: 0.0319089889526 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.3265255431
+Frame: 49 Timestamp: 1549592901.82 Seconds since last log: 0.0313289165497 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.4070068124
+Frame: 50 Timestamp: 1549592901.85 Seconds since last log: 0.0332601070404 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.4555702359
+Frame: 51 Timestamp: 1549592901.89 Seconds since last log: 0.0334889888763 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.4989974689
+Frame: 52 Timestamp: 1549592901.92 Seconds since last log: 0.0334758758545 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.541075452
+Frame: 53 Timestamp: 1549592901.95 Seconds since last log: 0.0331101417542 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.5869380013
+Frame: 54 Timestamp: 1549592901.99 Seconds since last log: 0.0334160327911 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.626922331
+Frame: 55 Timestamp: 1549592902.02 Seconds since last log: 0.0332748889923 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.6675268041
+Frame: 56 Timestamp: 1549592902.05 Seconds since last log: 0.0332341194153 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.7073532102
+Frame: 57 Timestamp: 1549592902.09 Seconds since last log: 0.0336790084839 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.7398837311
+Frame: 58 Timestamp: 1549592902.12 Seconds since last log: 0.0329368114471 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.7812378663
+Frame: 59 Timestamp: 1549592902.15 Seconds since last log: 0.0334870815277 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.8140902776
+Frame: 60 Timestamp: 1549592902.19 Seconds since last log: 0.0332610607147 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.848842781
+Frame: 61 Timestamp: 1549592902.22 Seconds since last log: 0.0331828594208 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.8835352767
+Frame: 62 Timestamp: 1549592902.25 Seconds since last log: 0.0335490703583 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.9125883704
+Frame: 63 Timestamp: 1549592902.29 Seconds since last log: 0.0331959724426 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.9451531171
+Frame: 64 Timestamp: 1549592902.32 Seconds since last log: 0.0330419540405 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.9786564806
+Frame: 65 Timestamp: 1549592902.35 Seconds since last log: 0.0336201190948 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.0042283207
+Frame: 66 Timestamp: 1549592902.39 Seconds since last log: 0.0331249237061 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.0349657184
+Frame: 67 Timestamp: 1549592902.42 Seconds since last log: 0.0337150096893 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.05791494
+Frame: 68 Timestamp: 1549592902.45 Seconds since last log: 0.0331780910492 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.0864524044
+Frame: 69 Timestamp: 1549592902.49 Seconds since last log: 0.0336709022522 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.1085741808
+Frame: 70 Timestamp: 1549592902.52 Seconds since last log: 0.0330021381378 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.137659256
+Frame: 71 Timestamp: 1549592902.55 Seconds since last log: 0.0332679748535 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.1630127343
+Frame: 72 Timestamp: 1549592902.59 Seconds since last log: 0.0335738658905 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.1843305741
+Frame: 73 Timestamp: 1549592902.62 Seconds since last log: 0.0329620838165 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.2117638994
+Frame: 74 Timestamp: 1549592902.65 Seconds since last log: 0.0334658622742 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.2330794909
+Frame: 75 Timestamp: 1549592902.69 Seconds since last log: 0.0333590507507 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.2549945425
+Frame: 76 Timestamp: 1549592902.72 Seconds since last log: 0.0336849689484 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.272937213
+Frame: 77 Timestamp: 1549592902.75 Seconds since last log: 0.0330111980438 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.2974407645
+Frame: 78 Timestamp: 1549592902.79 Seconds since last log: 0.0329427719116 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.3220605738
+Frame: 79 Timestamp: 1549592902.82 Seconds since last log: 0.0349631309509 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.3255643699
+Frame: 80 Timestamp: 1549592902.85 Seconds since last log: 0.0318260192871 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.3604867792
+Frame: 81 Timestamp: 1549592902.89 Seconds since last log: 0.0329060554504 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.3838835967
+Frame: 82 Timestamp: 1549592902.92 Seconds since last log: 0.0354177951813 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.3820510245
+Frame: 83 Timestamp: 1549592902.95 Seconds since last log: 0.031417131424 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.4191388132
+Frame: 84 Timestamp: 1549592902.99 Seconds since last log: 0.0332159996033 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.438107673
+Frame: 85 Timestamp: 1549592903.02 Seconds since last log: 0.0311119556427 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.4767136729
+Frame: 86 Timestamp: 1549592903.05 Seconds since last log: 0.031494140625 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.5109103135
+Frame: 87 Timestamp: 1549592903.1 Seconds since last log: 0.0475339889526 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 28.3949683391
+Frame: 88 Timestamp: 1549592903.23 Seconds since last log: 0.132929801941 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 27.5270718219
+Frame: 89 Timestamp: 1549592903.36 Seconds since last log: 0.133175134659 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 26.7265015411
+Frame: 90 Timestamp: 1549592903.5 Seconds since last log: 0.135195970535 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.9723467465
+Frame: 91 Timestamp: 1549592903.63 Seconds since last log: 0.13166308403 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 25.2996541662
+Frame: 92 Timestamp: 1549592903.76 Seconds since last log: 0.134883880615 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 24.653174107
+Frame: 93 Timestamp: 1549592903.9 Seconds since last log: 0.134130001068 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 24.0564877787
+Frame: 94 Timestamp: 1549592904.03 Seconds since last log: 0.133310079575 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 23.5046358609
+Frame: 95 Timestamp: 1549592904.16 Seconds since last log: 0.132381916046 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.9935524273
+Frame: 96 Timestamp: 1549592904.3 Seconds since last log: 0.132936000824 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.5112785562
+Frame: 97 Timestamp: 1549592904.43 Seconds since last log: 0.132105112076 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 22.0623317184
+Frame: 98 Timestamp: 1549592904.56 Seconds since last log: 0.133345842361 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.633649863
+Frame: 99 Timestamp: 1549592904.7 Seconds since last log: 0.134775161743 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 21.2229790741
+Frame: 100 Timestamp: 1549592904.83 Seconds since last log: 0.132128000259 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.8468703084
+Frame: 101 Timestamp: 1549592904.96 Seconds since last log: 0.133361816406 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.4857976804
+Frame: 102 Timestamp: 1549592905.1 Seconds since last log: 0.134245157242 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 20.1402309791
+Frame: 103 Timestamp: 1549592905.23 Seconds since last log: 0.13242483139 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.8194509163
+Frame: 104 Timestamp: 1549592905.36 Seconds since last log: 0.132957220078 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.5126632379
+Frame: 105 Timestamp: 1549592905.5 Seconds since last log: 0.136357784271 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 19.2088517353
+Frame: 106 Timestamp: 1549592905.63 Seconds since last log: 0.13195514679 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 18.9347080917
+Frame: 107 Timestamp: 1549592905.77 Seconds since last log: 0.134913921356 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 18.663553569
+Frame: 108 Timestamp: 1549592905.9 Seconds since last log: 0.131417036057 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 18.4158419271
+Frame: 109 Timestamp: 1549592906.03 Seconds since last log: 0.132114887238 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 18.1768732626
+Frame: 110 Timestamp: 1549592906.16 Seconds since last log: 0.133908033371 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 17.9429575554
+Frame: 111 Timestamp: 1549592906.3 Seconds since last log: 0.133629083633 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 17.7198312008
+Frame: 112 Timestamp: 1549592906.43 Seconds since last log: 0.132483005524 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 17.5091621353
+Frame: 113 Timestamp: 1549592906.56 Seconds since last log: 0.133321046829 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 17.3048213189
+Frame: 114 Timestamp: 1549592906.7 Seconds since last log: 0.1342689991 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 17.1062239058
+Frame: 115 Timestamp: 1549592906.83 Seconds since last log: 0.13215303421 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 16.9207374004
+Frame: 116 Timestamp: 1549592906.96 Seconds since last log: 0.134289979935 Number of Targets: 0 Heights: [] RatioAreas: [] CenterXs: [] Framerate: 16.7371645424
